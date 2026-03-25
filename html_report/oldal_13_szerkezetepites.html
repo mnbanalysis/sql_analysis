@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13. oldal: 13 Szerkezetépítési munkák (folytatás)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>13. oldal: 13 Szerkezetépítési munkák (folytatás)</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13-01-54 Alaplemez ALAGSOR DÉL peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>2,7</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>24 738</td>
+      <td>38 656</td>
+      <td>63 393</td>
+    </tr>
+    <tr>
+      <td>13-01-55 Padlócsatorna ALAGSOR DÉL peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>6,6</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>60 008</td>
+      <td>91 313</td>
+      <td>151 322</td>
+    </tr>
+    <tr>
+      <td>13-01-56 Alaplemez ALAGSOR ÉSZAK peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>6,9</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>62 944</td>
+      <td>98 355</td>
+      <td>161 300</td>
+    </tr>
+    <tr>
+      <td>13-01-57 Alaplemez BELSŐ UDVAR peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>2,1</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>19 240</td>
+      <td>30 066</td>
+      <td>49 306</td>
+    </tr>
+    <tr>
+      <td>13-01-58 Alaplemez BELSŐ UDVAR peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>4,3</td>
+      <td>m2</td>
+      <td>29 870</td>
+      <td>46 517</td>
+      <td>129 040</td>
+      <td>200 953</td>
+      <td>329 993</td>
+    </tr>
+    <tr>
+      <td>13-01-59 Szigetelésvezető fal függőleges zsaluzása, ALAGSOR ÉSZAK, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>35,4</td>
+      <td>m2</td>
+      <td>29 870</td>
+      <td>59 731</td>
+      <td>1 058 397</td>
+      <td>2 116 267</td>
+      <td>3 174 574</td>
+    </tr>
+    <tr>
+      <td>13-01-60 Szigetelésvezető fal JET oszlopba vésett függőleges zsaluzása, ALAGSOR ÉSZAK, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>11,9</td>
+      <td>m2</td>
+      <td>29 870</td>
+      <td>59 731</td>
+      <td>356 655</td>
+      <td>711 993</td>
+      <td>1 068 048</td>
+    </tr>
+    <tr>
+      <td>13-01-61 Szigetelésvezető fal függőleges zsaluzása, ALAGSOR DÉL, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>29,2</td>
+      <td>m2</td>
+      <td>29 870</td>
+      <td>59 731</td>
+      <td>872 215</td>
+      <td>1 744 143</td>
+      <td>2 616 358</td>
+    </tr>
+    <tr>
+      <td>13-01-62 Szigetelésvezető fal függőleges zsaluzása, BELSŐ UDVAR, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>86,6</td>
+      <td>m2</td>
+      <td>29 870</td>
+      <td>59 731</td>
+      <td>2 586 177</td>
+      <td>5 171 505</td>
+      <td>7 757 681</td>
+    </tr>
+    <tr>
+      <td>13-02-00 ÉPÍTÉSI SEGÉDSZERKEZETEK - VÁLLALKOZÓI KIEGÉSZÍTŐ TÉTELEK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>274 438 489</td>
+      <td>183 959 401</td>
+      <td>458 397 890</td>
+    </tr>
+    <tr>
+      <td>13-02-01 F1 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>8,9</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>95 263</td>
+      <td>144 960</td>
+      <td>240 223</td>
+    </tr>
+    <tr>
+      <td>13-02-02 F2 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>4,2</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>45 444</td>
+      <td>69 156</td>
+      <td>114 600</td>
+    </tr>
+    <tr>
+      <td>13-02-03 F3 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>5,0</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>46 095</td>
+      <td>71 011</td>
+      <td>117 106</td>
+    </tr>
+    <tr>
+      <td>13-02-04 F4 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>5,1</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>54 683</td>
+      <td>83 209</td>
+      <td>137 892</td>
+    </tr>
+    <tr>
+      <td>13-02-05 F11 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat /RÉSZBEN FENNMARADÓ/</td>
+      <td>NaN</td>
+      <td>5,5</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>50 676</td>
+      <td>79 186</td>
+      <td>129 861</td>
+    </tr>
+    <tr>
+      <td>13-02-06 Magántulajdonú leadó akna függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>91,5</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>980 685</td>
+      <td>1 492 289</td>
+      <td>2 472 974</td>
+    </tr>
+    <tr>
+      <td>13-02-07 Magántulajdonú leadó akna függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,5</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>13 853</td>
+      <td>21 647</td>
+      <td>35 500</td>
+    </tr>
+    <tr>
+      <td>13-02-08 ZS 100/75D zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,6</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>17 145</td>
+      <td>26 090</td>
+      <td>43 235</td>
+    </tr>
+    <tr>
+      <td>13-02-09 ZS 100/75B zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,6</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>5 497</td>
+      <td>8 590</td>
+      <td>14 087</td>
+    </tr>
+    <tr>
+      <td>13-02-10 ZS 100/75C zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,2</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>34 290</td>
+      <td>52 179</td>
+      <td>86 470</td>
+    </tr>
+    <tr>
+      <td>13-02-11 ZS 100/75A zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,2</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>34 719</td>
+      <td>52 831</td>
+      <td>87 550</td>
+    </tr>
+    <tr>
+      <td>13-02-12 ZS 100/85B zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>4,0</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>36 282</td>
+      <td>56 694</td>
+      <td>92 976</td>
+    </tr>
+    <tr>
+      <td>13-02-13 ZS 100/165 zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,6</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>17 360</td>
+      <td>26 416</td>
+      <td>43 775</td>
+    </tr>
+    <tr>
+      <td>13-02-14 ZS.O zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,1</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>10 038</td>
+      <td>15 686</td>
+      <td>25 723</td>
+    </tr>
+    <tr>
+      <td>13-02-15 ZS.160/135A zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,5</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>37 394</td>
+      <td>56 353</td>
+      <td>93 747</td>
+    </tr>
+    <tr>
+      <td>13-02-16 ZS.160/135B zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>5,9</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>53 873</td>
+      <td>84 182</td>
+      <td>138 056</td>
+    </tr>
+    <tr>
+      <td>13-02-17 ZS.160/135C zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>4,5</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>48 007</td>
+      <td>73 051</td>
+      <td>121 057</td>
+    </tr>
+    <tr>
+      <td>13-02-18 ZS.160/165 zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>9,6</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>87 885</td>
+      <td>137 297</td>
+      <td>225 182</td>
+    </tr>
+    <tr>
+      <td>13-02-19 ZS.160/90 zsomp függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>28,6</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>305 600</td>
+      <td>467 651</td>
+      <td>773 252</td>
+    </tr>
+    <tr>
+      <td>13-02-20 CS1 csapadékvíz tároló függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>2,8</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>25 196</td>
+      <td>39 371</td>
+      <td>64 567</td>
+    </tr>
+    <tr>
+      <td>13-02-21 CS1 csapadékvíz tároló függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>36,2</td>
+      <td>m2</td>
+      <td>10 716</td>
+      <td>16 306</td>
+      <td>387 686</td>
+      <td>589 950</td>
+      <td>977 636</td>
+    </tr>
+    <tr>
+      <td>13-02-22 CS2 csapadékvíz tároló függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>11,5</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>104 906</td>
+      <td>163 926</td>
+      <td>268 833</td>
+    </tr>
+    <tr>
+      <td>13-02-23 Alaplemez ALAGSOR DÉL peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>-1,2</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>-11 178</td>
+      <td>-17 466</td>
+      <td>-28 644</td>
+    </tr>
+    <tr>
+      <td>13-02-24 Alaplemez ALAGSOR ÉSZAK peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>-2,0</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>-18 599</td>
+      <td>-29 063</td>
+      <td>-47 662</td>
+    </tr>
+    <tr>
+      <td>13-02-25 Alaplemez BELSŐ UDVAR peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>7,1</td>
+      <td>m2</td>
+      <td>30 620</td>
+      <td>59 731</td>
+      <td>216 178</td>
+      <td>421 700</td>
+      <td>637 879</td>
+    </tr>
+    <tr>
+      <td>13-02-26 Szigetelésvezető fal függőleges zsaluzása, ALAGSOR ÉSZAK, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>-3,4</td>
+      <td>m2</td>
+      <td>30 620</td>
+      <td>59 731</td>
+      <td>-103 465</td>
+      <td>-201 831</td>
+      <td>-305 296</td>
+    </tr>
+    <tr>
+      <td>13-02-27 Szigetelésvezető fal JET oszlopba vésett függőleges zsaluzása, ALAGSOR ÉSZAK, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>16,3</td>
+      <td>m2</td>
+      <td>30 620</td>
+      <td>59 731</td>
+      <td>498 404</td>
+      <td>972 241</td>
+      <td>1 470 644</td>
+    </tr>
+    <tr>
+      <td>13-02-28 Szigetelésvezető fal függőleges zsaluzása, BELSŐ UDVAR, egyoldali falzsalu, változó magasságban</td>
+      <td>NaN</td>
+      <td>4,9</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>44 674</td>
+      <td>69 808</td>
+      <td>114 483</td>
+    </tr>
+    <tr>
+      <td>13-02-29 F5 Liftakna süllyeszték alaplemez peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,7</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>6 377</td>
+      <td>9 964</td>
+      <td>16 341</td>
+    </tr>
+    <tr>
+      <td>13-02-30 F7 Liftakna süllyeszték alaplemez peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,4</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>13 179</td>
+      <td>20 593</td>
+      <td>33 772</td>
+    </tr>
+    <tr>
+      <td>13-02-31 F7 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>14,8</td>
+      <td>m2</td>
+      <td>28 431</td>
+      <td>65 018</td>
+      <td>419 638</td>
+      <td>959 660</td>
+      <td>1 379 298</td>
+    </tr>
+    <tr>
+      <td>13-02-32 F8 Liftakna süllyeszték alaplemez peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,7</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>6 349</td>
+      <td>9 923</td>
+      <td>16 271</td>
+    </tr>
+    <tr>
+      <td>13-02-33 F8 Liftakna süllyeszték alaplemez peremének zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>27,2</td>
+      <td>m2</td>
+      <td>28 431</td>
+      <td>65 018</td>
+      <td>774 387</td>
+      <td>1 770 905</td>
+      <td>2 545 292</td>
+    </tr>
+    <tr>
+      <td>13-02-34 F8 Liftakna süllyeszték függőleges falainak zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>6,4</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>58 363</td>
+      <td>91 198</td>
+      <td>149 560</td>
+    </tr>
+    <tr>
+      <td>13-02-35 Magántulajdonú leadó akna alaplemez peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>152,6</td>
+      <td>m2</td>
+      <td>8 485</td>
+      <td>3 172</td>
+      <td>1 294 699</td>
+      <td>484 024</td>
+      <td>1 778 722</td>
+    </tr>
+    <tr>
+      <td>13-02-36 Munkavédelmi előírásoknak megfelelő keretes állvány építése vb.falak vasszereléséhez</td>
+      <td>NaN</td>
+      <td>17,5</td>
+      <td>m2</td>
+      <td>25 624</td>
+      <td>58 724</td>
+      <td>448 026</td>
+      <td>1 026 822</td>
+      <td>1 474 848</td>
+    </tr>
+    <tr>
+      <td>13-02-37 Padlócsatorna ALAGSOR DÉL peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>43,4</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>395 804</td>
+      <td>618 482</td>
+      <td>1 014 286</td>
+    </tr>
+    <tr>
+      <td>13-02-38 Padlócsatorna ALAGSOR KELET peremének zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>41,0</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>375 876</td>
+      <td>587 343</td>
+      <td>963 219</td>
+    </tr>
+    <tr>
+      <td>13-02-39 Padlócsatorna ALAGSOR KELET oldalfal zsaluzása, kétoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,6</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>5 039</td>
+      <td>7 874</td>
+      <td>12 913</td>
+    </tr>
+    <tr>
+      <td>13-02-40 ZS 100/75A zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,6</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>5 039</td>
+      <td>7 874</td>
+      <td>12 913</td>
+    </tr>
+    <tr>
+      <td>13-02-41 ZS 100/75B zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,1</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>10 078</td>
+      <td>15 748</td>
+      <td>25 827</td>
+    </tr>
+    <tr>
+      <td>13-02-42 ZS 100/75C zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,7</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>15 117</td>
+      <td>23 623</td>
+      <td>38 740</td>
+    </tr>
+    <tr>
+      <td>13-02-43 ZS 100/75D zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>0,9</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>8 411</td>
+      <td>13 143</td>
+      <td>21 554</td>
+    </tr>
+    <tr>
+      <td>13-02-44 ZS 100/85A zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>1,1</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>10 078</td>
+      <td>15 748</td>
+      <td>25 827</td>
+    </tr>
+    <tr>
+      <td>13-02-45 ZS 100/85B zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,3</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>30 235</td>
+      <td>47 245</td>
+      <td>77 480</td>
+    </tr>
+    <tr>
+      <td>13-02-46 ZS 100/165 zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>10,4</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>95 285</td>
+      <td>148 896</td>
+      <td>244 181</td>
+    </tr>
+    <tr>
+      <td>13-02-47 ZS.O zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,9</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>35 824</td>
+      <td>55 978</td>
+      <td>91 802</td>
+    </tr>
+    <tr>
+      <td>13-02-48 ZS.160/135A zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>3,8</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>35 073</td>
+      <td>54 804</td>
+      <td>89 877</td>
+    </tr>
+    <tr>
+      <td>13-02-49 ZS.160/135B zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>2,0</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>17 912</td>
+      <td>27 989</td>
+      <td>45 901</td>
+    </tr>
+    <tr>
+      <td>13-02-50 ZS.160/135C zsomp függőleges falainak zsaluzása, egyoldali zsaluzat</td>
+      <td>NaN</td>
+      <td>2,4</td>
+      <td>m2</td>
+      <td>9 162</td>
+      <td>14 317</td>
+      <td>21 650</td>
+      <td>33 830</td>
+      <td>55 480</td>
+    </tr>
+    <tr>
+      <td>13-02-51 Ideiglenes megtámasztó szerkezetek - tetőszint</td>
+      <td>NaN</td>
+      <td>17,2</td>
+      <td>t</td>
+      <td>2 452 000</td>
+      <td>687 400</td>
+      <td>42 093 464</td>
+      <td>11 800 586</td>
+      <td>53 894 080</td>
+    </tr>
+    <tr>
+      <td>13-02-52 Ideiglenes megtámasztás I. ütem acélszerkezet - építése</td>
+      <td>NaN</td>
+      <td>8,3</td>
+      <td>m3</td>
+      <td>689 564</td>
+      <td>1 078 215</td>
+      <td>5 722 744</td>
+      <td>9 001 401</td>
+      <td>14 724 146</td>
+    </tr>
+    <tr>
+      <td>13-02-53 Ideiglenes megtámasztás acélszerkezet - építése</td>
+      <td>NaN</td>
+      <td>25,6</td>
+      <td>t</td>
+      <td>2 452 000</td>
+      <td>687 400</td>
+      <td>62 852 116</td>
+      <td>17 620 124</td>
+      <td>80 472 240</td>
+    </tr>
+    <tr>
+      <td>13-02-54 Ideiglenes megtámasztás faszerkezet - építése</td>
+      <td>NaN</td>
+      <td>26,5</td>
+      <td>m3</td>
+      <td>689 564</td>
+      <td>1 078 215</td>
+      <td>18 141 734</td>
+      <td>28 532 270</td>
+      <td>46 674 004</td>
+    </tr>
+    <tr>
+      <td>13-02-55 Ideiglenes megtámasztás I.-IV. ütem és további részek acélszerkezet - építése</td>
+      <td>NaN</td>
+      <td>51,6</td>
+      <td>t</td>
+      <td>2 452 000</td>
+      <td>687 400</td>
+      <td>126 488 872</td>
+      <td>35 490 216</td>
+      <td>161 949 088</td>
+    </tr>
+    <tr>
+      <td>13-02-56 Ideiglenes acélszerkezet bontása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>51 931 797</td>
+      <td>0</td>
+      <td>51 931 797</td>
+      <td>51 931 797</td>
+    </tr>
+    <tr>
+      <td>13-02-57 Ideiglenes faszerkezet bontása 2a, 3, 5</td>
+      <td>NaN</td>
+      <td>17,8</td>
+      <td>m3</td>
+      <td>689 564</td>
+      <td>1 078 215</td>
+      <td>12 195 153</td>
+      <td>19 179 831</td>
+      <td>31 374 984</td>
+    </tr>
+    <tr>
+      <td>13-12-00 FÖLDMUNKÁK 1.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>146 128 292</td>
+      <td>152 508 742</td>
+      <td>298 637 034</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_013.png" alt="Oldal 13" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

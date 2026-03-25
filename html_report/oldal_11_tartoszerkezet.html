@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11. oldal: 10 Tartószerkezet (3. rész)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>11. oldal: 10 Tartószerkezet (3. rész)</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11-02-21 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>U29 lépcső feletti tető</td>
+      <td>237,5</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>806 049</td>
+      <td>627 627</td>
+      <td>1 433 676</td>
+    </tr>
+    <tr>
+      <td>11-02-22 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>Pavilon üveghíd</td>
+      <td>560,8</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>1 905 419</td>
+      <td>1 481 493</td>
+      <td>3 386 912</td>
+    </tr>
+    <tr>
+      <td>11-02-23 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>VBK-F-004 kerethez készülő acélszerkezet</td>
+      <td>6 920,9</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>23 515 004</td>
+      <td>18 290 447</td>
+      <td>41 805 451</td>
+    </tr>
+    <tr>
+      <td>11-02-24 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>VBK-F-001 kerethez készülő acélszerkezet</td>
+      <td>9 264,2</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>31 476 787</td>
+      <td>24 481 645</td>
+      <td>55 958 432</td>
+    </tr>
+    <tr>
+      <td>11-02-25 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>VBK-F-002 kerethez készülő acélszerkezet</td>
+      <td>4 610,8</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>15 666 023</td>
+      <td>12 184 085</td>
+      <td>27 850 108</td>
+    </tr>
+    <tr>
+      <td>11-02-26 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>Gépudvar 1 acélszerkezet</td>
+      <td>1 139,2</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>3 870 637</td>
+      <td>3 010 495</td>
+      <td>6 881 132</td>
+    </tr>
+    <tr>
+      <td>11-02-27 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>Gépudvar 2 acélszerkezet</td>
+      <td>4 047,9</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>13 753 489</td>
+      <td>10 697 140</td>
+      <td>24 450 629</td>
+    </tr>
+    <tr>
+      <td>11-02-28 Acélszerkezet gyártmány lista szerint, S235JR</td>
+      <td>Első emeleti acélpillérek</td>
+      <td>11 425,0</td>
+      <td>kg</td>
+      <td>3 398</td>
+      <td>2 643</td>
+      <td>38 820 028</td>
+      <td>30 192 639</td>
+      <td>69 012 667</td>
+    </tr>
+    <tr>
+      <td>11-02-29 Acélszerkezetek tűzvédelmi festése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>238 707 008</td>
+      <td>89 326 552</td>
+      <td>238 707 008</td>
+      <td>89 326 552</td>
+      <td>328 033 560</td>
+    </tr>
+    <tr>
+      <td>12-00-00 SZERKEZETÉPÍTÉS 1 (vegyes)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>572 299 560</td>
+      <td>303 532 642</td>
+      <td>875 832 202</td>
+    </tr>
+    <tr>
+      <td>12-00-01 Monolit vb. szerkezetek (alaplemez, zsomp, aknák) építése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>206 969 508</td>
+      <td>94 017 912</td>
+      <td>206 969 508</td>
+      <td>94 017 912</td>
+      <td>300 987 420</td>
+    </tr>
+    <tr>
+      <td>12-00-02 Alépítményi szigetelés 2. (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>104 430 450</td>
+      <td>43 429 271</td>
+      <td>104 430 450</td>
+      <td>43 429 271</td>
+      <td>147 859 721</td>
+    </tr>
+    <tr>
+      <td>12-00-03 Mikrocölöpözés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>26 789 060</td>
+      <td>55 729 191</td>
+      <td>26 789 060</td>
+      <td>55 729 191</td>
+      <td>82 518 251</td>
+    </tr>
+    <tr>
+      <td>12-00-04 ELMÜ Helyiség - acélszerelvények gyártása és beépítése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>6 394 084</td>
+      <td>2 904 575</td>
+      <td>6 394 084</td>
+      <td>2 904 575</td>
+      <td>9 298 659</td>
+    </tr>
+    <tr>
+      <td>12-00-05 Alagsor - PCS-2, trapézlemezelés födém</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>2 750 165</td>
+      <td>1 249 289</td>
+      <td>2 750 165</td>
+      <td>1 249 289</td>
+      <td>3 999 454</td>
+    </tr>
+    <tr>
+      <td>12-00-06 Beton, betonacél, kiegészítés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>197 464 793</td>
+      <td>89 709 388</td>
+      <td>197 464 793</td>
+      <td>89 709 388</td>
+      <td>287 174 181</td>
+    </tr>
+    <tr>
+      <td>12-00-07 Alagsor - Helyreállítási feladatok</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>27 501 702</td>
+      <td>12 492 915</td>
+      <td>27 501 702</td>
+      <td>12 492 915</td>
+      <td>39 994 617</td>
+    </tr>
+    <tr>
+      <td>13-00-00 SZERKEZETÉPÍTÉS 2.1 (M)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2 265 047 991</td>
+      <td>1 600 043 774</td>
+      <td>3 865 091 766</td>
+    </tr>
+    <tr>
+      <td>13-01-00 ÉPÍTÉSI SEGÉDSZERKEZETEK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8 581 398</td>
+      <td>15 461 622</td>
+      <td>24 043 020</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_011.png" alt="Oldal 11" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

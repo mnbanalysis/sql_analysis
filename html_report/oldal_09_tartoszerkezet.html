@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9. oldal: 10 Tartószerkezet (1. rész)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>9. oldal: 10 Tartószerkezet (1. rész)</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10-00-00 TARTÓSZERKEZET</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8 162 695 367</td>
+      <td>5 840 280 847</td>
+      <td>14 002 976 214</td>
+    </tr>
+    <tr>
+      <td>11-00-00 ACÉLSZERKEZETEK - KIVÁLTÓK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1 329 040 344</td>
+      <td>1 187 659 266</td>
+      <td>2 516 699 609</td>
+    </tr>
+    <tr>
+      <td>11-01-00 KIVÁLTÓK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>492 436 790</td>
+      <td>633 302 068</td>
+      <td>1 125 738 858</td>
+    </tr>
+    <tr>
+      <td>11-01-01 HEA100 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>113,8</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>355 292</td>
+      <td>456 926</td>
+      <td>812 218</td>
+    </tr>
+    <tr>
+      <td>11-01-02 HEA200 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>2 875,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>8 977 403</td>
+      <td>11 544 568</td>
+      <td>20 521 971</td>
+    </tr>
+    <tr>
+      <td>11-01-03 HEA240 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>2 208,6</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>6 895 249</td>
+      <td>8 867 529</td>
+      <td>15 762 778</td>
+    </tr>
+    <tr>
+      <td>11-01-04 HEB160 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>2 387,0</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>7 451 861</td>
+      <td>9 583 523</td>
+      <td>17 035 384</td>
+    </tr>
+    <tr>
+      <td>11-01-05 HEB200 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>10 764,0</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>33 602 899</td>
+      <td>43 215 263</td>
+      <td>76 818 162</td>
+    </tr>
+    <tr>
+      <td>11-01-06 HEB240 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>4 431,9</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>13 835 443</td>
+      <td>17 793 176</td>
+      <td>31 628 619</td>
+    </tr>
+    <tr>
+      <td>11-01-07 HEB240 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>8 641,6</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>26 978 034</td>
+      <td>34 695 155</td>
+      <td>61 673 189</td>
+    </tr>
+    <tr>
+      <td>11-01-08 HEB260 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>861,0</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 687 745</td>
+      <td>3 456 595</td>
+      <td>6 144 340</td>
+    </tr>
+    <tr>
+      <td>11-01-09 HEB300 (2x2), S235JR</td>
+      <td>Alagsor</td>
+      <td>3 160,8</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>9 867 223</td>
+      <td>12 689 825</td>
+      <td>22 557 054</td>
+    </tr>
+    <tr>
+      <td>11-01-10 HEB400 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>2 033,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>6 348 149</td>
+      <td>8 164 085</td>
+      <td>14 512 234</td>
+    </tr>
+    <tr>
+      <td>11-01-11 HEM160 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>1 165,6</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 638 895</td>
+      <td>4 679 828</td>
+      <td>8 318 723</td>
+    </tr>
+    <tr>
+      <td>11-01-12 HEM180 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>374,2</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 168 259</td>
+      <td>1 502 393</td>
+      <td>2 670 652</td>
+    </tr>
+    <tr>
+      <td>11-01-13 HEM200 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>3 717,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>11 605 198</td>
+      <td>14 924 953</td>
+      <td>26 530 151</td>
+    </tr>
+    <tr>
+      <td>11-01-14 HEM240 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>2 781,9</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>8 684 543</td>
+      <td>11 168 805</td>
+      <td>19 853 348</td>
+    </tr>
+    <tr>
+      <td>11-01-15 HEM260 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>957,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 988 624</td>
+      <td>3 843 543</td>
+      <td>6 832 167</td>
+    </tr>
+    <tr>
+      <td>11-01-16 HEM300 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>13 250,6</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>41 365 661</td>
+      <td>53 198 621</td>
+      <td>94 564 282</td>
+    </tr>
+    <tr>
+      <td>11-01-17 IPE200 (2x1), S235JR</td>
+      <td>Alagsor</td>
+      <td>332,0</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 036 512</td>
+      <td>1 333 115</td>
+      <td>2 369 627</td>
+    </tr>
+    <tr>
+      <td>11-01-18 HEB160 (2x2), S235JR</td>
+      <td>Pince</td>
+      <td>474,4</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 481 107</td>
+      <td>1 904 788</td>
+      <td>3 385 895</td>
+    </tr>
+    <tr>
+      <td>11-01-19 HEB240 (2x2), S235JR</td>
+      <td>Pince</td>
+      <td>843,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 632 614</td>
+      <td>3 385 683</td>
+      <td>6 018 297</td>
+    </tr>
+    <tr>
+      <td>11-01-20 HEM240 (2x2), S235JR</td>
+      <td>Pince</td>
+      <td>2 021,9</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>6 312 061</td>
+      <td>8 117 674</td>
+      <td>14 429 735</td>
+    </tr>
+    <tr>
+      <td>11-01-21 HEA160 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>485,58</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 515 854</td>
+      <td>1 949 514</td>
+      <td>3 465 368</td>
+    </tr>
+    <tr>
+      <td>11-01-22 HEA180 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>102,63</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>320 409</td>
+      <td>412 059</td>
+      <td>732 468</td>
+    </tr>
+    <tr>
+      <td>11-01-23 HEA200 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>136,58</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>426 375</td>
+      <td>548 343</td>
+      <td>974 719</td>
+    </tr>
+    <tr>
+      <td>11-01-24 HEA240 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>690,12</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 154 417</td>
+      <td>2 770 704</td>
+      <td>4 925 120</td>
+    </tr>
+    <tr>
+      <td>11-01-25 HEA260 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>519,69</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 622 368</td>
+      <td>2 086 459</td>
+      <td>3 708 827</td>
+    </tr>
+    <tr>
+      <td>11-01-26 HEB160 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>1 196,53</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 735 327</td>
+      <td>4 803 846</td>
+      <td>8 539 173</td>
+    </tr>
+    <tr>
+      <td>11-01-27 HEB180 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>377,65</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 178 973</td>
+      <td>1 516 113</td>
+      <td>2 695 086</td>
+    </tr>
+    <tr>
+      <td>11-01-28 HEB200 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>308,67</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>963 606</td>
+      <td>1 239 253</td>
+      <td>2 202 859</td>
+    </tr>
+    <tr>
+      <td>11-01-29 HEB220 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>548,89</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 713 525</td>
+      <td>2 203 692</td>
+      <td>3 917 216</td>
+    </tr>
+    <tr>
+      <td>11-01-30 HEB220 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>545,93</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 704 284</td>
+      <td>2 191 808</td>
+      <td>3 896 092</td>
+    </tr>
+    <tr>
+      <td>11-01-31 HEB240 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>3809,62</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>11 893 186</td>
+      <td>15 294 888</td>
+      <td>27 188 074</td>
+    </tr>
+    <tr>
+      <td>11-01-32 HEB260 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>819,24</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 557 603</td>
+      <td>3 289 097</td>
+      <td>5 846 699</td>
+    </tr>
+    <tr>
+      <td>11-01-33 HEB280 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>388,59</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 213 100</td>
+      <td>1 560 117</td>
+      <td>2 773 217</td>
+    </tr>
+    <tr>
+      <td>11-01-34 HEB300 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>1084,01</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 384 062</td>
+      <td>4 352 099</td>
+      <td>7 736 162</td>
+    </tr>
+    <tr>
+      <td>11-01-35 HEB320 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>623,8</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 947 379</td>
+      <td>2 504 441</td>
+      <td>4 451 820</td>
+    </tr>
+    <tr>
+      <td>11-01-36 HEM120 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>271,11</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>846 314</td>
+      <td>1 088 437</td>
+      <td>1 934 751</td>
+    </tr>
+    <tr>
+      <td>11-01-37 HEM140 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>375,01</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 170 706</td>
+      <td>1 505 596</td>
+      <td>2 676 302</td>
+    </tr>
+    <tr>
+      <td>11-01-38 HEM160 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>415,36</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>1 296 671</td>
+      <td>1 667 593</td>
+      <td>2 964 264</td>
+    </tr>
+    <tr>
+      <td>11-01-39 HEM240 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>1477,97</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>4 613 927</td>
+      <td>5 933 775</td>
+      <td>10 547 702</td>
+    </tr>
+    <tr>
+      <td>11-01-40 HEM240 (2x2), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>3669,37</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>11 455 039</td>
+      <td>14 731 840</td>
+      <td>26 186 879</td>
+    </tr>
+    <tr>
+      <td>11-01-41 IPE240 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>154,16</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>481 248</td>
+      <td>618 920</td>
+      <td>1 099 168</td>
+    </tr>
+    <tr>
+      <td>11-01-42 UPN200 (2x1), S235JR</td>
+      <td>Alagsor/gépészet</td>
+      <td>226,9</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>708 430</td>
+      <td>911 082</td>
+      <td>1 619 512</td>
+    </tr>
+    <tr>
+      <td>11-01-43 HEA120 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>107,4</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>335 344</td>
+      <td>431 271</td>
+      <td>766 615</td>
+    </tr>
+    <tr>
+      <td>11-01-44 HEA140 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>95,9</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>299 225</td>
+      <td>384 820</td>
+      <td>684 045</td>
+    </tr>
+    <tr>
+      <td>11-01-45 HEA160 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>102,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>320 078</td>
+      <td>411 639</td>
+      <td>731 717</td>
+    </tr>
+    <tr>
+      <td>11-01-46 HEA160 (2x2), S235JR</td>
+      <td>Földszint</td>
+      <td>109,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>341 333</td>
+      <td>438 930</td>
+      <td>780 263</td>
+    </tr>
+    <tr>
+      <td>11-01-47 HEA180 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>218,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>681 395</td>
+      <td>876 314</td>
+      <td>1 557 709</td>
+    </tr>
+    <tr>
+      <td>11-01-48 HEA200 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>1 069,2</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 337 922</td>
+      <td>4 292 780</td>
+      <td>7 630 682</td>
+    </tr>
+    <tr>
+      <td>11-01-49 HEA240 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>1 263,2</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 943 333</td>
+      <td>5 071 353</td>
+      <td>9 014 686</td>
+    </tr>
+    <tr>
+      <td>11-01-50 HEA260 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>794,3</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 479 646</td>
+      <td>3 188 967</td>
+      <td>5 668 613</td>
+    </tr>
+    <tr>
+      <td>11-01-51 HEB120 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>1 003,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 132 895</td>
+      <td>4 028 897</td>
+      <td>7 161 792</td>
+    </tr>
+    <tr>
+      <td>11-01-52 HEB160 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>1 876,7</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>5 858 526</td>
+      <td>7 534 192</td>
+      <td>13 392 928</td>
+    </tr>
+    <tr>
+      <td>11-01-53 HEB180 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>949,8</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 965 023</td>
+      <td>3 813 191</td>
+      <td>6 778 214</td>
+    </tr>
+    <tr>
+      <td>11-01-54 HEB200 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>761,2</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 376 314</td>
+      <td>3 056 077</td>
+      <td>5 432 391</td>
+    </tr>
+    <tr>
+      <td>11-01-55 HEB200 (2x2), S235JR</td>
+      <td>Földszint</td>
+      <td>91,1</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>284 340</td>
+      <td>365 672</td>
+      <td>649 982</td>
+    </tr>
+    <tr>
+      <td>11-01-56 HEB220 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>988,2</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>3 084 956</td>
+      <td>3 967 465</td>
+      <td>7 051 403</td>
+    </tr>
+    <tr>
+      <td>11-01-57 HEB240 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>2 606,0</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>8 135 536</td>
+      <td>10 462 767</td>
+      <td>18 598 303</td>
+    </tr>
+    <tr>
+      <td>11-01-58 HEB240 (2x2), S235JR</td>
+      <td>Földszint</td>
+      <td>811,8</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 534 121</td>
+      <td>3 259 026</td>
+      <td>5 793 147</td>
+    </tr>
+    <tr>
+      <td>11-01-59 HEB260 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>2 636,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>8 230 751</td>
+      <td>10 585 219</td>
+      <td>18 815 970</td>
+    </tr>
+    <tr>
+      <td>11-01-60 HEB280 (2x1), S235JR</td>
+      <td>Földszint</td>
+      <td>737,5</td>
+      <td>kg</td>
+      <td>3 122</td>
+      <td>4 015</td>
+      <td>2 302 265</td>
+      <td>2 960 845</td>
+      <td>5 263 111</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_009.png" alt="Oldal 9" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>493. oldal: 95 Növénytelepítés</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>493. oldal: 95 Növénytelepítés</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>95-110-00 4. EMELETI NÖVÉNYEK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4 315 602</td>
+      <td>777 008</td>
+      <td>5 092 610</td>
+    </tr>
+    <tr>
+      <td>95-111-00 SZOLITEREK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>533 961</td>
+      <td>99 306</td>
+      <td>633 268</td>
+    </tr>
+    <tr>
+      <td>95-111-01 Beltéri kaspók vonatkozó jegyzék szerint (műanyag belsővel, vízszintjelzővel együtt)</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>205 360</td>
+      <td>10 080</td>
+      <td>205 360</td>
+      <td>10 080</td>
+      <td>215 440</td>
+    </tr>
+    <tr>
+      <td>95-111-02 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Növények és kaspók</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-111-03 Rough Patt grey washed 45*38 cm E4.K1.</td>
+      <td>3,000</td>
+      <td>db</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>169 776</td>
+      <td>50 652</td>
+      <td>220 428</td>
+    </tr>
+    <tr>
+      <td>95-111-04 Areca lutescens 30 cs 170 cm</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>73 476</td>
+    </tr>
+    <tr>
+      <td>95-111-05 Rough Orb grey washed 48*43 cm E4.K2.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>73 476</td>
+    </tr>
+    <tr>
+      <td>95-111-06 Strelitzia nicolai 34cs 160cm</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>73 476</td>
+    </tr>
+    <tr>
+      <td>95-111-07 Rough Orb grey washed 39*35 cm E4.K3.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>56 592</td>
+      <td>16 884</td>
+      <td>73 476</td>
+    </tr>
+    <tr>
+      <td>95-111-08 Anthurium Jungle bush 30cs 70cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-111-09 Agyaggranulátum drénrétegként a kaspók aljára és talajtakarásra</td>
+      <td>0,060</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>9 217</td>
+      <td>650</td>
+      <td>9 867</td>
+    </tr>
+    <tr>
+      <td>95-111-10 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>0,289</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>36 424</td>
+      <td>4 158</td>
+      <td>40 582</td>
+    </tr>
+    <tr>
+      <td>95-112-00 E4.VL.1.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>658 560</td>
+      <td>102 516</td>
+      <td>1 700 670</td>
+    </tr>
+    <tr>
+      <td>95-112-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>333 781</td>
+      <td>49 680</td>
+      <td>333 781</td>
+      <td>49 680</td>
+      <td>383 461</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-112-02 Terv szerinti fiberstone virágláda (BB-3-10 virágláda) E4.VL.1.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>214 510</td>
+      <td>40 824</td>
+      <td>214 510</td>
+      <td>40 824</td>
+      <td>255 334</td>
+    </tr>
+    <tr>
+      <td>95-112-03 Cycas revoluta 21cs 60cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-112-04 Aglaonema White Joy 12cs 30cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-112-05 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>2,402</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>1 116</td>
+      <td>0</td>
+      <td>1 116</td>
+    </tr>
+    <tr>
+      <td>95-112-06 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>0,760</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>95 873</td>
+      <td>10 944</td>
+      <td>106 818</td>
+    </tr>
+    <tr>
+      <td>95-112-07 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,066</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>10 039</td>
+      <td>708</td>
+      <td>10 747</td>
+    </tr>
+    <tr>
+      <td>95-112-08 Vízszintjelző elhelyezése</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 600</td>
+    </tr>
+    <tr>
+      <td>95-113-00 E4.VL.2.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1 520 021</td>
+      <td>180 649</td>
+      <td>1 700 670</td>
+    </tr>
+    <tr>
+      <td>95-113-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>596 355</td>
+      <td>46 800</td>
+      <td>596 355</td>
+      <td>46 800</td>
+      <td>643 155</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-02 Terv szerinti fiberstone virágláda (BB-3-25 virágláda) E4.VL.2.</td>
+      <td>2,000</td>
+      <td>db</td>
+      <td>214 510</td>
+      <td>40 824</td>
+      <td>429 021</td>
+      <td>81 648</td>
+      <td>510 669</td>
+    </tr>
+    <tr>
+      <td>95-113-03 Ficus elastica Robusta törzses 40cs 175cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-04 Ficus lyrata 24cs 110cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-05 Schefflera arboricola Gold Capella törzses 38cs 160cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-06 Areca lutescens 21cs 90cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-07 Philodendron Imperial Green 21cs 65cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-113-08 Agyaggranulátum drénrétegként a növényláda aljára</td>
+      <td>0,457</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>70 093</td>
+      <td>4 941</td>
+      <td>75 033</td>
+    </tr>
+    <tr>
+      <td>95-113-09 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>5,032</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>2 337</td>
+      <td>0</td>
+      <td>2 337</td>
+    </tr>
+    <tr>
+      <td>95-113-10 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>3,129</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>394 708</td>
+      <td>45 058</td>
+      <td>439 766</td>
+    </tr>
+    <tr>
+      <td>95-113-11 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,137</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>21 026</td>
+      <td>1 482</td>
+      <td>22 510</td>
+    </tr>
+    <tr>
+      <td>95-113-12 Vízszintjelző elhelyezése</td>
+      <td>2,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>6 480</td>
+      <td>720</td>
+      <td>7 200</td>
+    </tr>
+    <tr>
+      <td>95-114-00 E4.VL.3.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>821 244</td>
+      <td>117 324</td>
+      <td>938 568</td>
+    </tr>
+    <tr>
+      <td>95-114-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>359 410</td>
+      <td>50 400</td>
+      <td>359 410</td>
+      <td>50 400</td>
+      <td>409 810</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-02 Terv szerinti fiberstone virágláda (BB-3-25 virágláda) E4.VL.3.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>214 510</td>
+      <td>40 824</td>
+      <td>214 510</td>
+      <td>40 824</td>
+      <td>255 334</td>
+    </tr>
+    <tr>
+      <td>95-114-03 Areca lutescens 40cs 200cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-04 Cycas revoluta 21cs 60cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-05 Areca lutescens 30 cs 170 cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-06 Philodendron Imperial Red 28cs 65cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-07 Dracaena surculosa 17cs 55cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-114-08 Agyaggranulátum drénrétegként a növényláda aljára</td>
+      <td>0,229</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>35 046</td>
+      <td>2 470</td>
+      <td>37 517</td>
+    </tr>
+    <tr>
+      <td>95-114-09 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>2,516</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>1 168</td>
+      <td>0</td>
+      <td>1 168</td>
+    </tr>
+    <tr>
+      <td>95-114-10 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>1,565</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>197 354</td>
+      <td>22 529</td>
+      <td>219 883</td>
+    </tr>
+    <tr>
+      <td>95-114-11 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,069</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>10 514</td>
+      <td>741</td>
+      <td>11 255</td>
+    </tr>
+    <tr>
+      <td>95-114-12 Vízszintjelző elhelyezése</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 600</td>
+    </tr>
+    <tr>
+      <td>95-115-00 E4.VL.4.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>91 830</td>
+      <td>42 730</td>
+      <td>134 560</td>
+    </tr>
+    <tr>
+      <td>95-115-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-115-02 Terv szerinti fiberstone virágláda (BB-5-10.1) E4.VL.4.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>73 019</td>
+      <td>40 824</td>
+      <td>73 019</td>
+      <td>40 824</td>
+      <td>113 843</td>
+    </tr>
+    <tr>
+      <td>95-115-03 Dracaena surculosa 17cs 55cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-115-04 Aglaonema White Joy 12cs 30cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-115-05 Agyaggranulátum drénrétegként a növényláda aljára</td>
+      <td>0,015</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 317</td>
+      <td>163</td>
+      <td>2 480</td>
+    </tr>
+    <tr>
+      <td>95-115-06 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>0,554</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>257</td>
+      <td>0</td>
+      <td>257</td>
+    </tr>
+    <tr>
+      <td>95-115-07 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>0,085</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>10 681</td>
+      <td>1 219</td>
+      <td>11 900</td>
+    </tr>
+    <tr>
+      <td>95-115-08 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,015</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 317</td>
+      <td>163</td>
+      <td>2 480</td>
+    </tr>
+    <tr>
+      <td>95-115-09 Vízszintjelző elhelyezése</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 600</td>
+    </tr>
+    <tr>
+      <td>95-116-00 E4.VL.5.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>93 869</td>
+      <td>42 932</td>
+      <td>136 802</td>
+    </tr>
+    <tr>
+      <td>95-116-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-116-02 Terv szerinti fiberstone virágláda (BB-5-10.2) E4.VL.5.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>73 019</td>
+      <td>40 824</td>
+      <td>73 019</td>
+      <td>40 824</td>
+      <td>113 843</td>
+    </tr>
+    <tr>
+      <td>95-116-03 Dracaena surculosa 17cs 55cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-116-04 Aglaonema White Joy 12cs 30cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-116-05 Agyaggranulátum drénrétegként a növényláda aljára</td>
+      <td>0,017</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 620</td>
+      <td>185</td>
+      <td>2 805</td>
+    </tr>
+    <tr>
+      <td>95-116-06 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>0,627</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>291</td>
+      <td>0</td>
+      <td>291</td>
+    </tr>
+    <tr>
+      <td>95-116-07 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>0,096</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>12 080</td>
+      <td>1 379</td>
+      <td>13 458</td>
+    </tr>
+    <tr>
+      <td>95-116-08 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,017</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 620</td>
+      <td>185</td>
+      <td>2 805</td>
+    </tr>
+    <tr>
+      <td>95-116-09 Vízszintjelző elhelyezése</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 600</td>
+    </tr>
+    <tr>
+      <td>95-117-00 E4.VL.6.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>91 206</td>
+      <td>34 867</td>
+      <td>126 072</td>
+    </tr>
+    <tr>
+      <td>95-117-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-117-02 Terv szerinti fiberstone virágláda (BB-5-10.2) E4.VL.6</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>71 096</td>
+      <td>32 832</td>
+      <td>71 096</td>
+      <td>32 832</td>
+      <td>103 928</td>
+    </tr>
+    <tr>
+      <td>95-117-03 Aglaonema Diamond Bay 17cs 55cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-117-04 Dracaena surculosa 12cs 40cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-117-05 Agyaggranulátum drénrétegként a növényláda aljára</td>
+      <td>0,016</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 510</td>
+      <td>177</td>
+      <td>2 687</td>
+    </tr>
+    <tr>
+      <td>95-117-06 1 rtg. 150gr/m2 geotextil a termőközeg és agyaggranulátum elválasztására</td>
+      <td>0,601</td>
+      <td>m2</td>
+      <td>464</td>
+      <td>0</td>
+      <td>279</td>
+      <td>0</td>
+      <td>279</td>
+    </tr>
+    <tr>
+      <td>95-117-07 Speciális beltéri termőközeg (perlittel és egyéb ásványi anyaggal kevert, jav. típus Nieuwkoop NIE20) tömörödéssel számolva</td>
+      <td>0,092</td>
+      <td>m3</td>
+      <td>126 144</td>
+      <td>14 400</td>
+      <td>11 571</td>
+      <td>1 321</td>
+      <td>12 892</td>
+    </tr>
+    <tr>
+      <td>95-117-08 4/8-as szemcseméretű agyaggranulátum talajtakarásra</td>
+      <td>0,016</td>
+      <td>m3</td>
+      <td>153 222</td>
+      <td>10 800</td>
+      <td>2 510</td>
+      <td>177</td>
+      <td>2 687</td>
+    </tr>
+    <tr>
+      <td>95-117-09 Vízszintjelző elhelyezése</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 240</td>
+      <td>360</td>
+      <td>3 600</td>
+    </tr>
+    <tr>
+      <td>95-118-00 E4.VL.7.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>85 959</td>
+      <td>26 893</td>
+      <td>112 852</td>
+    </tr>
+    <tr>
+      <td>95-118-01 Beltéri növények telepítése vonatkozó terv és növényjegyzék szerint</td>
+      <td>1,000</td>
+      <td>kit</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Növények és virágláda</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-118-02 Terv szerinti fiberstone virágláda (BB-5-10.3) E4.VL.7.</td>
+      <td>1,000</td>
+      <td>db</td>
+      <td>62 424</td>
+      <td>24 480</td>
+      <td>62 424</td>
+      <td>24 480</td>
+      <td>86 904</td>
+    </tr>
+    <tr>
+      <td>95-118-03 Aglaonema Diamond Bay 17cs 55cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>95-118-04 Dracaena surculosa 12cs 40cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_493.png" alt="Oldal 493" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

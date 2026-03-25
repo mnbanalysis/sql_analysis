@@ -1,0 +1,17 @@
+Tétel;Menny.;Egys.;Anyag e.ár (net HUF);Díj e.ár (net HUF);Anyag összesen (net HUF);Díj összesen (net HUF);Anyag+Díj összesen (net HUF)
+"61-10-22 LÉT3 - Típus: Daikin Applied Europe ADN04ECW1; Vbe=5000 m3/h; dp=450 Pa; Vel=5000 m3/h; dp=450 Pa;";1,0;db;13 864 123;1 069 392;13 864 123;1 069 392;14 933 515
+"61-10-23 LKO1 - Típus: Daikin Applied Europe ADN03GCW1; Vbe=0 m3/h; dp=0 Pa; Vel=0 m3/h; dp=0 Pa;";1,0;db;13 271 704;972 174;13 271 704;972 174;14 243 879
+"61-10-24 LKO3 - Típus: Daikin Applied Europe ADN04GCW1; Vbe=6000 m3/h; dp=450 Pa; Vel=6000 m3/h; dp=450 Pa;";1,0;db;16 170 000;1 069 392;16 170 000;1 069 392;17 239 392
+61-20-00 VENTILÁTOROK ÖSSZESEN;;;;;131 677 397;15 982 880;147 660 277
+"61-20-01 LTK1V - Vel=650 m3/h; dp=400 Pa; Típus: Trox RS 250L EC";1,0;db;296 680;29 166;296 680;29 166;325 846
+"61-20-02 LTK5 - Vel=3000 m3/h; dp=400 Pa; Típus: Trox EL 355 E2 01";1,0;db;421 800;38 887;421 800;38 887;460 687
+"61-20-03 LTK6 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-04 LWC1 - Vel=650 m3/h; dp=400 Pa; Típus: Trox RS 250L EC";1,0;db;296 680;29 166;296 680;29 166;325 846
+"61-20-05 LWC1V - Vel=2200 m3/h; dp=400 Pa; Típus: Trox EL 355 E2 01";1,0;db;421 800;38 887;421 800;38 887;460 687
+"61-20-06 LWC2 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-07 LWC3 - Vel=750 m3/h; dp=400 Pa; Típus: Trox RS 250L EC";1,0;db;296 680;29 166;296 680;29 166;325 846
+"61-20-08 LWC4 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-09 LWC5 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-10 LWC6 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-11 LWC7 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750
+"61-20-12 LWC8 - Vel=1000 m3/h; dp=400 Pa; Típus: Trox RS 315L EC";1,0;db;326 584;29 166;326 584;29 166;355 750

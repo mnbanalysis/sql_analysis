@@ -1,0 +1,50 @@
+Tétel;Megjegyzés;Menny.;Egys.;Anyag e.ár (net HUF);Díj e.ár (net HUF);Anyag összesen (net HUF);Díj összesen (net HUF);Anyag+Díj összesen (net HUF)
+45-30-13 Étkezőszék (Teakonyha) - Fejlesztés;Konszig jel: BM-3-12;32,0;db;126 038;13 203;4 033 228;422 492;4 455 720
+45-30-14 Étkezőszék (Dolgozói étterem) - Fejlesztés;Konszig jel: BM-3-13;62,0;db;112 171;7 221;6 954 631;447 721;7 402 352
+45-30-15 Étkezőszék (Teakonyha, 2. emelet) - Fejlesztés;Konszig jel: BM-3-14;4,0;db;112 171;7 221;448 685;28 885;477 571
+45-30-16 Karosszék (Kávézó) - Fejlesztés;Konszig jel: BM-3-15.1;24,0;db;346 673;7 221;8 320 146;173 311;8 493 457
+45-30-17 Karosszék (Kávézó) - Fejlesztés;Konszig jel: BM-3-15.2;54,0;db;112 171;7 221;6 057 260;389 951;6 447 210
+45-30-18 Lezáró (Teakonyha), 49x251 - Egyedi;Konszig jel: BM-3-16.1;1,0;db;1 478 029;72 213;1 478 029;72 213;1 550 242
+45-30-19 Lezáró (Teakonyha), 81x505 - Egyedi;Konszig jel: BM-3-16.2;1,0;db;1 478 029;72 213;1 478 029;72 213;1 550 242
+45-30-20 Recepciós szék (VIP), 47x42x52 - Termék;Konszig jel: BM-3-17;3,0;db;260 557;16 975;781 671;50 925;832 596
+45-30-21 Szék (Rekreációs helyiség) - Fejlesztés;Konszig jel: BM-3-18;16,0;db;126 038;13 203;2 016 614;211 246;2 227 860
+45-30-22 Bárszék (Kávézó), 51x58x112 - Termék;Konszig jel: BM-3-19;4,0;db;189 685;7 221;758 741;28 885;787 627
+45-30-23 Bárszék (Rekreációs helyiség 1. emelet), 51x58x112 - Termék;Konszig jel: BM-3-20;7,0;db;355 273;7 221;2 486 913;50 549;2 537 462
+45-30-24 Bárszék (Rekreációs helyiség), 51x58x112 - Termék;Konszig jel: BM-3-21;10,0;db;189 685;8 710;1 896 854;87 104;1 983 957
+45-30-25 Bárszék (Dolgozói étterem), 51x58x112 - Termék;Konszig jel: BM-3-21;0,0;db;189 685;8 710;0;0;0
+45-30-26 Bárszék (Teakonyha), 51x58x112 - Termék;Konszig jel: BM-3-22;10,0;db;189 685;8 710;1 896 854;87 104;1 983 957
+45-30-27 Kanapé (VIP recepció), 250x90 - Egyedi;Konszig jel: BM-3-24;2,0;db;1 924 633;34 318;3 849 266;68 637;3 917 903
+45-30-28 Fotel (VIP recepció, közlekedő), 72x60x80 - Fejlesztés;Konszig jel: BM-3-25;4,0;db;528 931;29 183;2 115 723;116 733;2 232 456
+45-30-29 Fotel (Rekreációs helyiség) - Fejlesztés;Konszig jel: BM-3-27;2,0;db;735 218;22 592;1 470 435;45 185;1 515 620
+45-30-30 Dohányzóasztal (VIP recepció és közlekedő), Ø80x110 - Termék;Konszig jel: BM-3-29;2,0;db;126 557;4 243;253 113;8 487;261 600
+45-40-00 VIP TERÜLETEK;;0,0;db;0;0;69 754 622;3 732 998;73 487 620
+45-40-01 Tárgyaló asztal (VIP különterem), 160x110x75 - Egyedi;Konszig jel: BM-4-01.1;3,0;db;2 224 041;134 943;6 672 123;404 828;7 076 951
+45-40-02 Tárgyaló asztal (VIP különterem), 180x140x75 - Egyedi;Konszig jel: BM-4-01.2;2,0;db;2 224 041;134 943;4 448 082;269 885;4 717 967
+45-40-03 Éttermi asztal (VIP Étterem), 65x65x75 - Termék;Konszig jel: BM-4-02;12,0;db;122 834;4 243;1 474 007;50 921;1 524 928
+45-40-04 Éttermi asztal (VIP Lobby), 60x60x75 - Termék;Konszig jel: BM-4-03;8,0;db;126 557;4 243;1 012 452;33 947;1 046 399
+45-40-05 Éttermi asztal (VIP Lobby), Ø80 - Termék;Konszig jel: BM-4-04;10,0;db;126 557;4 243;1 265 565;42 434;1 307 999
+45-40-06 Konasztal (VIP különterem), 60x200 - Egyedi;Konszig jel: BM-4-05;1,0;db;1 712 233;42 695;1 712 233;42 695;1 754 927
+45-40-07 Konasztal (VIP Panoráma lounge különterem), 180x40 - Egyedi;Konszig jel: BM-4-06;1,0;db;2 217 341;42 695;2 217 341;42 695;2 260 035
+45-40-08 Konasztal (VIP különterem), 60x240 - Egyedi;Konszig jel: BM-4-07;2,0;db;2 455 751;42 096;4 911 501;84 193;4 995 693
+45-40-09 Konasztal (VIP Étterem), 45x165 - Egyedi;Konszig jel: BM-4-08;1,0;db;1 934 451;42 095;1 934 451;42 095;1 976 545
+45-40-10 Oldalasztal (VIP különterem), Ø50x72 - Termék;Konszig jel: BM-4-09;3,0;db;119 112;4 243;357 336;12 730;370 066
+45-40-11 Oldalasztal (Panoráma lounge), Ø50 - Fejlesztés (családi);Konszig jel: BM-4-10;2,0;db;733 580;39 939;1 467 160;79 879;1 547 038
+45-40-12 Dohányzóasztal (VIP Panoráma lounge különterem), Ø120x30 - Fejlesztés (családi);Konszig jel: BM-4-11;1,0;db;734 027;39 939;734 027;39 939;773 966
+45-40-13 Dohányzóasztal (VIP panoráma lounge), Ø100 - Fejlesztés (családi);Konszig jel: BM-4-12;1,0;db;1 188 068;39 939;1 188 068;39 939;1 228 008
+45-40-14 Dohányzóasztal (VIP Panoráma lounge), Ø100 - Fejlesztés (családi);Konszig jel: BM-4-13;1,0;db;1 188 068;39 939;1 188 068;39 939;1 228 008
+45-40-15 Fogadóasztal (Panoráma lounge), 105x40 - Egyedi;Konszig jel: BM-4-14;1,0;db;609 588;26 387;609 588;26 387;635 976
+45-40-16 Bárszék (VIP Lobby), 45x50 - Termék;Konszig jel: BM-4-15;8,0;db;362 919;8 510;2 903 353;68 081;2 971 433
+45-40-17 Szék (VIP Lobby) - Fejlesztési (családi);Konszig jel: BM-4-16;50,0;db;126 038;13 203;6 301 919;660 143;6 962 063
+45-40-18 Fotel (Panoráma lounge) - Egyedi;Konszig jel: BM-4-17;2,0;db;859 094;63 270;1 718 189;126 541;1 844 729
+45-40-19 Fotel (VIP Panoráma lounge különterem), 73x60x80 - Fejlesztés (családi);Konszig jel: BM-4-18;6,0;db;456 856;18 569;2 741 133;111 415;2 852 548
+45-40-20 Karosszék (VIP Lobby) - Fejlesztési (családi);Konszig jel: BM-4-19;0,0;db;223 375;13 203;0;0;0
+45-40-21 Karosszék (VIP Lobby) - Fejlesztési (családi);Konszig jel: BM-4-19;16,0;db;223 375;13 203;3 574 006;211 246;3 785 251
+45-40-22 Karosszék (VIP különterem) - Fejlesztés (családi);Konszig jel: BM-4-20;6,0;db;126 038;13 203;756 230;79 217;835 448
+45-40-23 Karosszék (VIP különterem) - Fejlesztés (családi);Konszig jel: BM-4-21;15,0;db;205 170;4 298;3 077 551;64 476;3 142 027
+45-40-24 Szék (VIP Panoráma lounge), 45x50 - Termék;Konszig jel: BM-4-22;1,0;db;362 919;4 298;362 919;4 298;367 217
+45-40-25 Puff-Sofa (Panoráma lounge), 320x220x100 - Egyedi;Konszig jel: BM-4-23;1,0;db;2 075 151;104 422;2 075 151;104 422;2 179 573
+45-40-26 Sarokkanapé (Panoráma lounge), 320x320x100 - Egyedi;Konszig jel: BM-4-24;1,0;db;2 224 041;106 479;2 224 041;106 479;2 330 520
+45-40-27 Vitrin (VIP Lobby), 115x45 - Termék;Konszig jel: BM-4-25;10,0;db;1 153 077;83 503;11 530 771;835 032;12 365 803
+45-40-28 Alacsony szekrény (VIP különterem), 100x50 - Termék;Konszig jel: BM-4-26;1,0;db;1 107 166;80 248;1 107 166;80 248;1 187 413
+45-50-00 ÁLTALÁNOS IRODABÚTOROK;;0,0;db;0;0;486 461 311;27 502 457;513 963 768
+45-50-01 Általános irodai asztal, 160x80x75 - Termék;Konszig jel: BM-5-01.1;29,0;db;334 630;20 559;9 704 271;596 202;10 300 473

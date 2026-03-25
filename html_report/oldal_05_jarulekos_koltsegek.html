@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5. oldal: Járulékos költségek</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>5. oldal: Járulékos költségek</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01-20-10 Őrzés</td>
+      <td>2021 december 27 - 2022 január 31. 2 fő 24 órában\n2022 február - 2022 június 3 fő 24 órában, épületen belül 2 fő 12 órában\n2022 június - 2022 december 3 fő 24 órában, mellette épületen belül 4 fő 12 órában\n2023 január - 2023 december 3 fő 24 órában, mellette épületen belül 10 fő 12 órában\n2024 január - 2024 december 3 fő 24 órában, mellette épületen belül 10 fő 12 órában</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-11 Raktár bérlés 300 m2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-12 Raktár bérlés 147 m2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-13 Raktár bérlés 2665 m2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-14 Raktár bérlés 1706 m2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-15 Raktár bérlés 194 m2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-16 Raktár rezsi költség</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-17 Parkoló bérlés</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-18 Iroda bérlés (HP)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-19 Akusztikai eldobozolás</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-20 Organizációs villámvédelem kiépítése (daru, konténerváros, épület ideiglenes)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>33 280 239</td>
+      <td>0</td>
+      <td>33 280 239</td>
+      <td>33 280 239</td>
+    </tr>
+    <tr>
+      <td>01-20-21 Közterület foglalási díj (V. Kerület Belváros - Lipótváros)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-22 Sitszállítás</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>38 348 551</td>
+      <td>0</td>
+      <td>38 348 551</td>
+      <td>38 348 551</td>
+    </tr>
+    <tr>
+      <td>01-20-23 Sits csúszda rendszerek bérlése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>14 620 908</td>
+      <td>0</td>
+      <td>14 620 908</td>
+      <td>14 620 908</td>
+    </tr>
+    <tr>
+      <td>01-20-24 Építési tábla 1</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>151 251</td>
+      <td>0</td>
+      <td>151 251</td>
+      <td>151 251</td>
+    </tr>
+    <tr>
+      <td>01-20-25 Mobil WC bérlési költség</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>28 207 368</td>
+      <td>0</td>
+      <td>28 207 368</td>
+      <td>28 207 368</td>
+    </tr>
+    <tr>
+      <td>01-20-26 Geda felvonók bérlés, kezelő biztosításával</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>117 170 945</td>
+      <td>0</td>
+      <td>117 170 945</td>
+      <td>117 170 945</td>
+    </tr>
+    <tr>
+      <td>01-20-27 Munkavédelem biztosítása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>18 006 043</td>
+      <td>0</td>
+      <td>18 006 043</td>
+      <td>18 006 043</td>
+    </tr>
+    <tr>
+      <td>01-20-28 Ideiglenes forgalomtechnikai eszközök</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>19 755 507</td>
+      <td>0</td>
+      <td>19 755 507</td>
+      <td>19 755 507</td>
+    </tr>
+    <tr>
+      <td>01-20-29 Arany J.u. METRÓ megálló helyreálltás</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>21 607 252</td>
+      <td>0</td>
+      <td>21 607 252</td>
+      <td>21 607 252</td>
+    </tr>
+    <tr>
+      <td>01-20-30 Felvonulási terület kialakítása, fenntartása, kerítés építés, folyamatos karbantartás</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>19 446 527</td>
+      <td>0</td>
+      <td>19 446 527</td>
+      <td>19 446 527</td>
+    </tr>
+    <tr>
+      <td>01-20-31 WELL Azbeszt mentesítési dokumentáció angol nyelvű kivonatának elkészítése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>162 054</td>
+      <td>0</td>
+      <td>162 054</td>
+      <td>162 054</td>
+    </tr>
+    <tr>
+      <td>01-20-32 BIM Portfólió készítés - Épület szkennelése, 360° Panoráma fotózás, 3D Pontfelhő készítése BIM modellhez 14 alkalommal</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-20-33 Felvonulási konténerbérlés - játszótér konténerváros</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>77 179 861</td>
+      <td>0</td>
+      <td>77 179 861</td>
+      <td>77 179 861</td>
+    </tr>
+    <tr>
+      <td>01-20-34 Beépíthető konténer telepítése és bérlése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>1 598 757</td>
+      <td>0</td>
+      <td>1 598 757</td>
+      <td>1 598 757</td>
+    </tr>
+    <tr>
+      <td>01-20-35 Lean kivitelezési tanácsadás</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>46 924 475</td>
+      <td>0</td>
+      <td>46 924 475</td>
+      <td>46 924 475</td>
+    </tr>
+    <tr>
+      <td>01-20-36 Közjegyzői díj</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>6 869 252</td>
+      <td>0</td>
+      <td>6 869 252</td>
+      <td>6 869 252</td>
+    </tr>
+    <tr>
+      <td>01-20-37 Felvonulási terület - Faápolás metszés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>1 395 468</td>
+      <td>0</td>
+      <td>1 395 468</td>
+      <td>1 395 468</td>
+    </tr>
+    <tr>
+      <td>01-20-38 Hulladékkezelés, kommunális kukák biztosítása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>2 091 582</td>
+      <td>0</td>
+      <td>2 091 582</td>
+      <td>2 091 582</td>
+    </tr>
+    <tr>
+      <td>01-20-39 Trafó leadó akna közműfeltárás munkálatai</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>7 596 204</td>
+      <td>0</td>
+      <td>7 596 204</td>
+      <td>7 596 204</td>
+    </tr>
+    <tr>
+      <td>01-20-40 Épület állékonyság miatti megerősítés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>12 309 233</td>
+      <td>10 989 957</td>
+      <td>12 309 233</td>
+      <td>10 989 957</td>
+      <td>23 299 190</td>
+    </tr>
+    <tr>
+      <td>01-20-41 Azbeszt vizsgálat (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>197 289</td>
+      <td>256 476</td>
+      <td>197 289</td>
+      <td>256 476</td>
+      <td>453 765</td>
+    </tr>
+    <tr>
+      <td>01-20-42 Pipere takarítás</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>25 030 216</td>
+      <td>0</td>
+      <td>25 030 216</td>
+      <td>25 030 216</td>
+    </tr>
+    <tr>
+      <td>01-30-00 IDEIGLENES ÉS MELLÉKMUNKÁK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>57 103 851</td>
+      <td>192 134 530</td>
+      <td>249 238 381</td>
+    </tr>
+    <tr>
+      <td>01-31-00 IDEIGLENES MUNKÁK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>22 374 184</td>
+      <td>45 014 191</td>
+      <td>67 388 375</td>
+    </tr>
+    <tr>
+      <td>01-31-01 Trafó leadó akna munkatér határolás jet grouting oszlopokkal D=80 cm, L= 7,00 m</td>
+      <td>NaN</td>
+      <td>91,0</td>
+      <td>fm</td>
+      <td>96 412</td>
+      <td>292 449</td>
+      <td>8 773 492</td>
+      <td>26 612 886</td>
+      <td>35 386 378</td>
+    </tr>
+    <tr>
+      <td>01-31-02 Trafó leadó akna munkatér határolás jet grouting oszlopokba HEA200 acélprofilok elhelyezése L= 7,00 m</td>
+      <td>A tétel árát az 1.1 tétel ára tartalmazza</td>
+      <td>35,0</td>
+      <td>fm</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-31-03 Trafó leadó akna munkatér határolás merevítő keret kialakítása HEA200 acélprofilok elhelyezésével</td>
+      <td>A tétel árát az 1.1 tétel ára tartalmazza</td>
+      <td>10,8</td>
+      <td>fm</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-31-04 Trafó leadó akna munkatér határolás merevítő keret sarok merevítés HEA140 acélprofilok elhelyezésével</td>
+      <td>A tétel árát az 1.1 tétel ára tartalmazza</td>
+      <td>2,2</td>
+      <td>fm</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-31-05 Trafó leadó akna munkatér határolás merevítő lemezek elhelyezése V=10 mm, terv szerinti méretben</td>
+      <td>A tétel árát az 1.1 tétel ára tartalmazza</td>
+      <td>20,0</td>
+      <td>db</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-31-06 Építési törmelék elszállítása, lerakóhelyi díjjal együtt</td>
+      <td>NaN</td>
+      <td>226,9</td>
+      <td>m3</td>
+      <td>0</td>
+      <td>12 217</td>
+      <td>0</td>
+      <td>2 772 128</td>
+      <td>2 772 128</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_005.png" alt="Oldal 5" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6. oldal: Járulékos költségek</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>6. oldal: Járulékos költségek</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01-31-07 Építési törmelék konténerbe történő pakolása</td>
+      <td>NaN</td>
+      <td>226,9</td>
+      <td>m3</td>
+      <td>0</td>
+      <td>9 318</td>
+      <td>0</td>
+      <td>2 114 345</td>
+      <td>2 114 345</td>
+    </tr>
+    <tr>
+      <td>01-31-08 Ideiglenes kerítés építése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kltsg</td>
+      <td>0</td>
+      <td>2 974 672</td>
+      <td>0</td>
+      <td>2 974 672</td>
+      <td>2 974 672</td>
+    </tr>
+    <tr>
+      <td>01-31-09 Ideiglenes víz, felvonulás előtt, Generalconstruct</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>340 631</td>
+      <td>482 382</td>
+      <td>340 631</td>
+      <td>482 382</td>
+      <td>823 013</td>
+    </tr>
+    <tr>
+      <td>01-31-10 Vízmérőhely átépítés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>172 096</td>
+      <td>384 573</td>
+      <td>172 096</td>
+      <td>384 573</td>
+      <td>556 669</td>
+    </tr>
+    <tr>
+      <td>01-31-11 Felszíni tűzcsap süllyesztése, átépítése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>283 603</td>
+      <td>423 502</td>
+      <td>283 603</td>
+      <td>423 502</td>
+      <td>707 105</td>
+    </tr>
+    <tr>
+      <td>01-31-12 Nyomásfokozó beépítése Wilo nyomásfokozó beépítése, réz idomokkal, nyomáskapcsolóval, tágulási tartályal komplett</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>404 130</td>
+      <td>54 261</td>
+      <td>404 130</td>
+      <td>54 261</td>
+      <td>458 391</td>
+    </tr>
+    <tr>
+      <td>01-31-13 Csatlakozási pont kialakítása KPE rendszerhez, csővezetékkel, idomokkal komplett</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>35 791</td>
+      <td>93 302</td>
+      <td>35 791</td>
+      <td>93 302</td>
+      <td>129 093</td>
+    </tr>
+    <tr>
+      <td>01-31-14 Nyomásfokozó beüzemelése, beállítása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>31 309</td>
+      <td>0</td>
+      <td>31 309</td>
+      <td>31 309</td>
+    </tr>
+    <tr>
+      <td>01-31-15 Ideiglenes kézmosó</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-31-16 KPE víznyomócső szerelése homlokzati állványról, gyorskötegelővel - D20 méretben</td>
+      <td>NaN</td>
+      <td>18,0</td>
+      <td>fm</td>
+      <td>570</td>
+      <td>4 537</td>
+      <td>10 260</td>
+      <td>81 666</td>
+      <td>91 926</td>
+    </tr>
+    <tr>
+      <td>01-31-17 Csatlakozási pont kiépítése víz alapvezetékbe, újonnan beépítésre kerülő csapolók részére</td>
+      <td>NaN</td>
+      <td>4,0</td>
+      <td>klt</td>
+      <td>1 812</td>
+      <td>4 537</td>
+      <td>7 248</td>
+      <td>18 148</td>
+      <td>25 396</td>
+    </tr>
+    <tr>
+      <td>01-31-18 PE lefolyócső szerelése, vízvételi hely és a legközelebbi víznyelő közt NA40 méretben</td>
+      <td>NaN</td>
+      <td>15,0</td>
+      <td>m</td>
+      <td>4 276</td>
+      <td>11 911</td>
+      <td>64 140</td>
+      <td>178 659</td>
+      <td>242 799</td>
+    </tr>
+    <tr>
+      <td>01-31-19 Kiöntő elhelyezése, sarokszeleppel, szifonnal, kompletten</td>
+      <td>NaN</td>
+      <td>4,0</td>
+      <td>db</td>
+      <td>38 627</td>
+      <td>29 494</td>
+      <td>154 508</td>
+      <td>117 978</td>
+      <td>272 486</td>
+    </tr>
+    <tr>
+      <td>01-31-20 Egyedi tartószerkezet gyártása ideiglenes vízvételi helyek részére</td>
+      <td>NaN</td>
+      <td>4,0</td>
+      <td>klt</td>
+      <td>13 581</td>
+      <td>15 504</td>
+      <td>54 324</td>
+      <td>62 015</td>
+      <td>116 339</td>
+    </tr>
+    <tr>
+      <td>01-31-21 JET gépek bekötése és pincei nyomvonal kiépítése - KPE víznyomócső szerelése D50 méretben</td>
+      <td>NaN</td>
+      <td>120,0</td>
+      <td>fm</td>
+      <td>761</td>
+      <td>4 537</td>
+      <td>91 320</td>
+      <td>544 440</td>
+      <td>635 760</td>
+    </tr>
+    <tr>
+      <td>01-31-22 Kerticsap elhelyezés a gép részére</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>4 908</td>
+      <td>2 950</td>
+      <td>4 908</td>
+      <td>2 950</td>
+      <td>7 858</td>
+    </tr>
+    <tr>
+      <td>01-31-23 Csatlakozás kiépítése az új vízóránal, 2" elzáróval, karimával</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>11 344</td>
+      <td>8 130</td>
+      <td>11 344</td>
+      <td>8 130</td>
+      <td>19 474</td>
+    </tr>
+    <tr>
+      <td>01-31-24 Pincei Bobcat útvonl miatt, D200 as esővíz ejtő átalakítása, a mennyezet alatt, D160 alapvezetékcsatlakozás módosítással. D200-KG 4m, D160-2m Átfolyóidomanyák, 45° os idomok, ág idom</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>213 249</td>
+      <td>207 970</td>
+      <td>213 249</td>
+      <td>207 970</td>
+      <td>421 219</td>
+    </tr>
+    <tr>
+      <td>01-31-25 Ideiglenes rendszer üzemeltetése, későbbi átalakítása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>175 323</td>
+      <td>628 304</td>
+      <td>175 323</td>
+      <td>628 304</td>
+      <td>803 627</td>
+    </tr>
+    <tr>
+      <td>01-31-26 JET szekrény betáplálás Műanyag védőcső árokba</td>
+      <td>NaN</td>
+      <td>250,0</td>
+      <td>m</td>
+      <td>1 222</td>
+      <td>2 982</td>
+      <td>305 500</td>
+      <td>745 550</td>
+      <td>1 051 050</td>
+    </tr>
+    <tr>
+      <td>01-31-27 Erőátviteli kábel, tartószerkezetre v. árokba</td>
+      <td>NaN</td>
+      <td>250,0</td>
+      <td>m</td>
+      <td>12 665</td>
+      <td>5 963</td>
+      <td>3 166 250</td>
+      <td>1 490 775</td>
+      <td>4 657 025</td>
+    </tr>
+    <tr>
+      <td>01-31-28 Kábelárokásás, helyreállítással (sima talaj esetén)</td>
+      <td>NaN</td>
+      <td>200,0</td>
+      <td>m</td>
+      <td>0</td>
+      <td>13 419</td>
+      <td>0</td>
+      <td>2 683 720</td>
+      <td>2 683 720</td>
+    </tr>
+    <tr>
+      <td>01-31-29 KALOCSA szekrények Csatlakozó tábla, lábon (történetes Balocsa szekrény)</td>
+      <td>NaN</td>
+      <td>8,0</td>
+      <td>db</td>
+      <td>387 188</td>
+      <td>29 818</td>
+      <td>3 097 504</td>
+      <td>238 545</td>
+      <td>3 336 049</td>
+    </tr>
+    <tr>
+      <td>01-31-30 Gumikábel, tartószerkezetre</td>
+      <td>NaN</td>
+      <td>300,0</td>
+      <td>m</td>
+      <td>7 222</td>
+      <td>2 535</td>
+      <td>2 166 600</td>
+      <td>760 500</td>
+      <td>2 927 100</td>
+    </tr>
+    <tr>
+      <td>01-31-31 Segédanyag</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>281 933</td>
+      <td>74 545</td>
+      <td>281 933</td>
+      <td>74 545</td>
+      <td>356 478</td>
+    </tr>
+    <tr>
+      <td>01-31-32 Elosztó szekrény</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>db</td>
+      <td>1 657 844</td>
+      <td>650 454</td>
+      <td>1 657 844</td>
+      <td>650 454</td>
+      <td>2 308 298</td>
+    </tr>
+    <tr>
+      <td>01-31-33 Világítás átalakítása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>902 186</td>
+      <td>178 909</td>
+      <td>902 186</td>
+      <td>178 909</td>
+      <td>1 081 095</td>
+    </tr>
+    <tr>
+      <td>01-31-34 Érintésvédelmi mérés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>397 574</td>
+      <td>0</td>
+      <td>397 574</td>
+      <td>397 574</td>
+    </tr>
+    <tr>
+      <td>01-32-00 MELLÉKMUNKÁK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>34 729 667</td>
+      <td>147 120 339</td>
+      <td>181 850 006</td>
+    </tr>
+    <tr>
+      <td>01-32-01 Építési törmelék elszállítása, lerakóhelyi díjjal együtt</td>
+      <td>NaN</td>
+      <td>56,1</td>
+      <td>m3</td>
+      <td>0</td>
+      <td>12 217</td>
+      <td>0</td>
+      <td>685 396</td>
+      <td>685 396</td>
+    </tr>
+    <tr>
+      <td>01-32-02 Építési törmelék konténerbe történő pakolása</td>
+      <td>NaN</td>
+      <td>56,1</td>
+      <td>m3</td>
+      <td>0</td>
+      <td>9 318</td>
+      <td>0</td>
+      <td>522 762</td>
+      <td>522 762</td>
+    </tr>
+    <tr>
+      <td>01-32-03 Futódaru és egyéb kisgépek költsége</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>5 913 905</td>
+      <td>0</td>
+      <td>5 913 905</td>
+      <td>5 913 905</td>
+    </tr>
+    <tr>
+      <td>01-32-04 Betonpumpa 4,2 hónap üzemidővel számolva (100 fm csőtelepítés, kezelővel, szállítással)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>32 526 476</td>
+      <td>0</td>
+      <td>32 526 476</td>
+      <td>32 526 476</td>
+    </tr>
+    <tr>
+      <td>01-32-05 Geodézia szerkezetépítéshez</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>1 900 898</td>
+      <td>0</td>
+      <td>1 900 898</td>
+      <td>1 900 898</td>
+    </tr>
+    <tr>
+      <td>01-32-06 Geodézia egyéb alépítményi munkákhoz - geodéta, kitűzések, ellenőrzések, folyamatos süllyedésvizsgálat</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>12 424 170</td>
+      <td>0</td>
+      <td>12 424 170</td>
+      <td>12 424 170</td>
+    </tr>
+    <tr>
+      <td>01-32-07 Adatszolgáltatás megvalósulási dokumentációhoz</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>844 844</td>
+      <td>0</td>
+      <td>844 844</td>
+      <td>844 844</td>
+    </tr>
+    <tr>
+      <td>01-32-08 Téliesítés alépítményi vasbeton szerkezetépítés során</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>1 056 055</td>
+      <td>0</td>
+      <td>1 056 055</td>
+      <td>1 056 055</td>
+    </tr>
+    <tr>
+      <td>01-32-09 Folyamatos munkaközi takarítás alépítményi munkák során</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>4 058 562</td>
+      <td>0</td>
+      <td>4 058 562</td>
+      <td>4 058 562</td>
+    </tr>
+    <tr>
+      <td>01-32-10 Sorkitöltés visszaellenőrzés kalkulált díja - pincei munkákra (6 hónap)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-32-11 Ideiglenes utak kialakítása épületen belül</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>796 421</td>
+      <td>4 141 391</td>
+      <td>796 421</td>
+      <td>4 141 391</td>
+      <td>4 937 812</td>
+    </tr>
+    <tr>
+      <td>01-32-12 Acélszerkezetű pincei megtámasztás - alaplapok mellett</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>7 555 392</td>
+      <td>6 892 516</td>
+      <td>7 555 392</td>
+      <td>6 892 516</td>
+      <td>14 447 908</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_006.png" alt="Oldal 6" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

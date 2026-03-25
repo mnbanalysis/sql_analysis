@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>129. oldal: Festés és mázolás</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>129. oldal: Festés és mázolás</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>41-10-48 Kültéri kőburkolat Típus: fagyálló édesvízi tömött keménymészkő homogén felhős jellegű ( pl jellelegében és előzetesen javasolva Travertino Alabastro, Limestone Persiano, Piedra Paloma, Giallo Atlantide vagy Kanfanar limestone) padlóburkolat, homogén travertin érzetű megjelenéssel szükség esetén műgyantás pórustömítéssel, leather/ gyémántkefélt felülettel, ragasztva, szorított műgyanta fugával, helyszíni csiszolással, kő táblamérettől függően minimum ~80 x 140 cm táblamérettel, rakásminta szerint Megjelenése homogén kis szemcseméretű egységes felület, világos /elefántcsont/ krém színben. Kiosztás a belsőépítész terveivel egyeztetendő. Rétegrend szerinti bazaltvázalékkos aljzatra fektetve vagy közvetlenül fagyálló ragasztóval A bedolgozásnál számolni kell a homogén felület eléréséhez szükséges (akár több műszakon át történő) munkavégzéssel Vastagság: ~20 mm kőtípustól függően Kiegészítő elem: IMPERTEK álpadló rendszer biztonsági kapocs (Lásd.: fotók) Felületképzés: Csúszásmentes felülettel minta szerint, felületi gyári impregnálás tétel része. Méret: Terv szerint, ~80 x 140 cm méretben. Lábazat: Lábazatburkolati, Padlóburkolati tervek szerint.</td>
+      <td>Belsőép. konszig. kód: PB-15.2 Általános reprezentatív közönségforgalmi terek - kültérben 5. emelet (VIP)</td>
+      <td>139,5</td>
+      <td>m2</td>
+      <td>43 554</td>
+      <td>20 770</td>
+      <td>6 076 626</td>
+      <td>2 897 895</td>
+      <td>8 974 521</td>
+    </tr>
+    <tr>
+      <td>41-10-49 Felületerősített betonpadló Típus: MAPEI MAPETOP N saját levében simított betonpadló fényes felülettel. Vastagság: 2-3 mm Dilatáció: max. 25 m2-ként aljzatdilatációknak megfelelően – előre meghatározott kiosztás szerint. Kiosztás az építész tervezővel egyeztetendő. Leírás: Friss aljzat felületére Tremixel bedolgozva. A bedolgozásnál számolni kell a fényes felület eléréséhez szükséges (akár több műszakon át történő) munkavégzéssel. Felületképzés: BE08-503 specifikáció szerint. Lábazat: Lábazat nélkül, rugalmasan tömített falcsatlakozással.</td>
+      <td>Belsőép. konszig. kód: PB-19 Alagsor</td>
+      <td>109,2</td>
+      <td>m2</td>
+      <td>80 407</td>
+      <td>41 375</td>
+      <td>8 781 225</td>
+      <td>4 518 589</td>
+      <td>13 299 814</td>
+    </tr>
+    <tr>
+      <td>41-10-50 Felületerősített betonpadló, mint előző tétet</td>
+      <td>Földszint</td>
+      <td>1,5</td>
+      <td>m2</td>
+      <td>80 407</td>
+      <td>41 375</td>
+      <td>123 826</td>
+      <td>63 718</td>
+      <td>187 544</td>
+    </tr>
+    <tr>
+      <td>41-10-51 Felületerősített betonpadló, mint előző tétet</td>
+      <td>5. emelet</td>
+      <td>369,9</td>
+      <td>m2</td>
+      <td>80 407</td>
+      <td>41 375</td>
+      <td>29 739 253</td>
+      <td>15 303 043</td>
+      <td>45 042 296</td>
+    </tr>
+    <tr>
+      <td>41-10-52 Műkő lépcsőt lezáró padlóburkolati szakaszok Meglévő műkő szegélyelemek kiegészítéseként és a lépcső folytatásaként gyártott műkő burkolati mezők. Típus: Helyszíni műkő – meglévővel azonos. Fehércementes felülettel. Felületképzés: Meglévővel azonos, felületi impregnálással kompletten. Lábazat: Lábazatburkolati tervek szerint.</td>
+      <td>Belsőép. konszig. kód: PB-21 Menekülő lépcsőházak Alagsor</td>
+      <td>2,3</td>
+      <td>m2</td>
+      <td>10 101</td>
+      <td>8 081</td>
+      <td>22 828</td>
+      <td>18 262</td>
+      <td>41 090</td>
+    </tr>
+    <tr>
+      <td>41-10-53 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>Földszint</td>
+      <td>8,6</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>620 688</td>
+      <td>312 437</td>
+      <td>933 125</td>
+    </tr>
+    <tr>
+      <td>41-10-54 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>Magasföldszint</td>
+      <td>2,2</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>159 667</td>
+      <td>80 372</td>
+      <td>240 039</td>
+    </tr>
+    <tr>
+      <td>41-10-55 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>1.emelet</td>
+      <td>2,4</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>174 051</td>
+      <td>87 613</td>
+      <td>261 664</td>
+    </tr>
+    <tr>
+      <td>41-10-56 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>1.Em Galéria</td>
+      <td>39,3</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>2 829 416</td>
+      <td>1 424 250</td>
+      <td>4 253 666</td>
+    </tr>
+    <tr>
+      <td>41-10-57 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>2.emelet</td>
+      <td>1,8</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>131 617</td>
+      <td>66 253</td>
+      <td>197 870</td>
+    </tr>
+    <tr>
+      <td>41-10-58 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>2.5. Emelet</td>
+      <td>1,8</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>131 617</td>
+      <td>66 253</td>
+      <td>197 870</td>
+    </tr>
+    <tr>
+      <td>41-10-59 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>3.emelet</td>
+      <td>1,6</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>115 075</td>
+      <td>57 926</td>
+      <td>173 001</td>
+    </tr>
+    <tr>
+      <td>41-10-60 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>4.emelet</td>
+      <td>3,7</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>262 516</td>
+      <td>132 143</td>
+      <td>394 659</td>
+    </tr>
+    <tr>
+      <td>41-10-61 Műkő lépcsőt lezáró padlóburkolat, mint előző tétel</td>
+      <td>5.emelet</td>
+      <td>4,1</td>
+      <td>m2</td>
+      <td>71 922</td>
+      <td>36 204</td>
+      <td>294 881</td>
+      <td>148 435</td>
+      <td>443 315</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_129.png" alt="Oldal 129" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

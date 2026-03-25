@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>497. oldal: 97 Vízköddel oltó rendszer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>497. oldal: 97 Vízköddel oltó rendszer</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>97-00-00 VÍZKÖDDEL OLTÓ RENDSZER</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>621 102 851</td>
+      <td>509 185 223</td>
+      <td>1 130 288 074</td>
+    </tr>
+    <tr>
+      <td>97-10-00 VÍZKÖDDEL OLTÓ SZERLÉNYEK</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>330 090 847</td>
+      <td>101 740 157</td>
+      <td>431 831 004</td>
+    </tr>
+    <tr>
+      <td>97-10-01 Dugó 18 mm</td>
+      <td>104,0</td>
+      <td>pc(s)</td>
+      <td>5 448</td>
+      <td>6 826</td>
+      <td>491 816</td>
+      <td>616 200</td>
+      <td>1 108 016</td>
+    </tr>
+    <tr>
+      <td>97-10-02 7+1 szivattyúegység 120l/min @ 120bar</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>73 245 449</td>
+      <td>0</td>
+      <td>63 581 119</td>
+      <td>0</td>
+      <td>63 581 119</td>
+    </tr>
+    <tr>
+      <td>97-10-03 Nyomáskapcsoló redundáns szivattyúegységekhez</td>
+      <td>7,0</td>
+      <td>pc(s)</td>
+      <td>277 753</td>
+      <td>0</td>
+      <td>1 687 735</td>
+      <td>0</td>
+      <td>1 687 735</td>
+    </tr>
+    <tr>
+      <td>97-10-04 7+1 szivattyúegység vezérlőszekrény</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>15 092 150</td>
+      <td>0</td>
+      <td>13 100 825</td>
+      <td>0</td>
+      <td>13 100 825</td>
+    </tr>
+    <tr>
+      <td>97-10-05 Elektromos átkapcsoló szekrény</td>
+      <td>0,0</td>
+      <td>pc(s)</td>
+      <td>8 280 533</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>97-10-06 Víztartály 3m^2 (7+1)</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>14 947 955</td>
+      <td>0</td>
+      <td>12 975 655</td>
+      <td>0</td>
+      <td>12 975 655</td>
+    </tr>
+    <tr>
+      <td>97-10-07 FOGTEC vízköd szórófej - DK6-02-C-O</td>
+      <td>119,0</td>
+      <td>pc(s)</td>
+      <td>243 772</td>
+      <td>2 275</td>
+      <td>25 181 352</td>
+      <td>235 025</td>
+      <td>25 416 377</td>
+    </tr>
+    <tr>
+      <td>97-10-08 FOGTEC vízköd szórófej - DK6-06-A</td>
+      <td>310,0</td>
+      <td>pc(s)</td>
+      <td>96 715</td>
+      <td>2 275</td>
+      <td>26 025 740</td>
+      <td>612 250</td>
+      <td>26 637 990</td>
+    </tr>
+    <tr>
+      <td>97-10-09 FOGTEC vízköd szórófej - HSP01</td>
+      <td>1 782,0</td>
+      <td>pc(s)</td>
+      <td>41 903</td>
+      <td>2 275</td>
+      <td>64 818 468</td>
+      <td>3 519 450</td>
+      <td>68 337 918</td>
+    </tr>
+    <tr>
+      <td>97-10-10 FOGTEC vízköd szórófej - HSP02</td>
+      <td>169,0</td>
+      <td>pc(s)</td>
+      <td>39 656</td>
+      <td>2 275</td>
+      <td>5 817 656</td>
+      <td>333 775</td>
+      <td>6 151 431</td>
+    </tr>
+    <tr>
+      <td>97-10-11 FOGTEC vízköd szórófej - HSP03</td>
+      <td>366,0</td>
+      <td>pc(s)</td>
+      <td>54 030</td>
+      <td>2 275</td>
+      <td>17 165 766</td>
+      <td>722 850</td>
+      <td>17 888 616</td>
+    </tr>
+    <tr>
+      <td>97-10-12 Fúvókacsonk - OT L12 for HSP</td>
+      <td>2 317,0</td>
+      <td>pc(s)</td>
+      <td>7 460</td>
+      <td>27 302</td>
+      <td>15 004 892</td>
+      <td>54 912 900</td>
+      <td>69 917 792</td>
+    </tr>
+    <tr>
+      <td>97-10-13 Fúvókacsonk - OT L12 for DK</td>
+      <td>429,0</td>
+      <td>pc(s)</td>
+      <td>5 781</td>
+      <td>27 302</td>
+      <td>2 152 722</td>
+      <td>10 167 300</td>
+      <td>12 320 022</td>
+    </tr>
+    <tr>
+      <td>97-10-14 Flexibilis tömlő álmennyezethez</td>
+      <td>1 990,0</td>
+      <td>pc(s)</td>
+      <td>29 905</td>
+      <td>11 376</td>
+      <td>51 658 410</td>
+      <td>19 651 250</td>
+      <td>71 309 660</td>
+    </tr>
+    <tr>
+      <td>97-10-15 Kazettás álmennyezet csőtartó</td>
+      <td>97,0</td>
+      <td>pc(s)</td>
+      <td>3 743</td>
+      <td>4 550</td>
+      <td>315 153</td>
+      <td>383 150</td>
+      <td>698 303</td>
+    </tr>
+    <tr>
+      <td>97-10-16 Álmennyezet csőtartó</td>
+      <td>1 893,0</td>
+      <td>pc(s)</td>
+      <td>979</td>
+      <td>4 550</td>
+      <td>1 609 050</td>
+      <td>7 477 350</td>
+      <td>9 086 400</td>
+    </tr>
+    <tr>
+      <td>97-10-17 Decor fedő</td>
+      <td>1 990,0</td>
+      <td>pc(s)</td>
+      <td>1 428</td>
+      <td>1 138</td>
+      <td>2 467 600</td>
+      <td>1 966 120</td>
+      <td>4 433 720</td>
+    </tr>
+    <tr>
+      <td>97-10-18 HP Göm bcsap... DN13 G1/2" végálláskapcsoló nélkül</td>
+      <td>20,0</td>
+      <td>pc(s)</td>
+      <td>52 842</td>
+      <td>11 701</td>
+      <td>917 400</td>
+      <td>203 140</td>
+      <td>1 120 540</td>
+    </tr>
+    <tr>
+      <td>97-10-19 Nedves szekció szelep G1" végálláskapcsoló nélkül</td>
+      <td>3,0</td>
+      <td>pc(s)</td>
+      <td>1 291 674</td>
+      <td>68 256</td>
+      <td>3 363 735</td>
+      <td>177 750</td>
+      <td>3 541 485</td>
+    </tr>
+    <tr>
+      <td>97-10-20 Nedves szekció szelep G1 1/2" végálláskapcsoló nélkül</td>
+      <td>5,0</td>
+      <td>pc(s)</td>
+      <td>1 800 623</td>
+      <td>68 256</td>
+      <td>7 815 205</td>
+      <td>296 250</td>
+      <td>8 111 455</td>
+    </tr>
+    <tr>
+      <td>97-10-21 Nedves szekció szelep G2" végálláskapcsoló nélkül</td>
+      <td>3,0</td>
+      <td>pc(s)</td>
+      <td>3 683 446</td>
+      <td>68 256</td>
+      <td>6 394 872</td>
+      <td>118 500</td>
+      <td>6 513 372</td>
+    </tr>
+    <tr>
+      <td>97-10-22 HP Göm bcsap. kézi DN25 G1" végálláskapcsolóval</td>
+      <td>5,0</td>
+      <td>pc(s)</td>
+      <td>206 807</td>
+      <td>15 926</td>
+      <td>538 560</td>
+      <td>41 475</td>
+      <td>580 035</td>
+    </tr>
+    <tr>
+      <td>97-10-23 HP Göm bcsap. kézi DN40 G1 1/2" végálláskapcsolóval</td>
+      <td>5,0</td>
+      <td>pc(s)</td>
+      <td>327 782</td>
+      <td>19 340</td>
+      <td>1 422 665</td>
+      <td>83 940</td>
+      <td>1 506 605</td>
+    </tr>
+    <tr>
+      <td>97-10-24 HP Göm bcsap. kézi DN50 G2" végálláskapcsolóval</td>
+      <td>2,0</td>
+      <td>pc(s)</td>
+      <td>1 230 295</td>
+      <td>25 027</td>
+      <td>2 135 928</td>
+      <td>43 450</td>
+      <td>2 179 378</td>
+    </tr>
+    <tr>
+      <td>97-10-25 Pneumatikus szelep G1/2"</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>933 089</td>
+      <td>11 701</td>
+      <td>809 973</td>
+      <td>10 157</td>
+      <td>820 130</td>
+    </tr>
+    <tr>
+      <td>97-10-26 Pneumatikus szelep G1 1/2"</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>1 806 872</td>
+      <td>68 256</td>
+      <td>1 568 465</td>
+      <td>59 250</td>
+      <td>1 627 715</td>
+    </tr>
+    <tr>
+      <td>97-10-27 Nyomástávadó</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>112 431</td>
+      <td>11 376</td>
+      <td>97 596</td>
+      <td>9 875</td>
+      <td>107 471</td>
+    </tr>
+    <tr>
+      <td>97-10-28 Kompresszor</td>
+      <td>1,0</td>
+      <td>pc(s)</td>
+      <td>1 120 307</td>
+      <td>113 760</td>
+      <td>972 489</td>
+      <td>98 750</td>
+      <td>1 071 239</td>
+    </tr>
+    <tr>
+      <td>97-20-00 CSŐ</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>232 610 960</td>
+      <td>95 213 888</td>
+      <td>327 824 848</td>
+    </tr>
+    <tr>
+      <td>97-20-01 Cső 12,0x1,5 1.4301</td>
+      <td>103,0</td>
+      <td>m</td>
+      <td>3 417</td>
+      <td>6 501</td>
+      <td>305 498</td>
+      <td>581 229</td>
+      <td>886 727</td>
+    </tr>
+    <tr>
+      <td>97-20-02 Cső 18,0x1,5 1.4404</td>
+      <td>3 428,0</td>
+      <td>m</td>
+      <td>4 967</td>
+      <td>6 501</td>
+      <td>14 781 536</td>
+      <td>19 344 204</td>
+      <td>34 125 740</td>
+    </tr>
+    <tr>
+      <td>97-20-03 Cső 28,0x2,0 1.4404</td>
+      <td>6 170,0</td>
+      <td>m</td>
+      <td>7 208</td>
+      <td>6 501</td>
+      <td>38 605 690</td>
+      <td>34 817 310</td>
+      <td>73 423 000</td>
+    </tr>
+    <tr>
+      <td>97-20-04 Cső 42,4x2,6 1.4404</td>
+      <td>2 590,0</td>
+      <td>m</td>
+      <td>15 100</td>
+      <td>7 313</td>
+      <td>33 949 720</td>
+      <td>16 441 320</td>
+      <td>50 391 040</td>
+    </tr>
+    <tr>
+      <td>97-20-05 Cső 60,3x2,6 1.4404</td>
+      <td>128,0</td>
+      <td>m</td>
+      <td>20 407</td>
+      <td>9 101</td>
+      <td>2 267 392</td>
+      <td>1 011 200</td>
+      <td>3 278 592</td>
+    </tr>
+    <tr>
+      <td>97-20-06 Egyenestoldó 18</td>
+      <td>131,0</td>
+      <td>pc(s)</td>
+      <td>9 166</td>
+      <td>6 826</td>
+      <td>1 042 367</td>
+      <td>776 175</td>
+      <td>1 818 542</td>
+    </tr>
+    <tr>
+      <td>97-20-07 Egyenestoldó 28</td>
+      <td>18,0</td>
+      <td>pc(s)</td>
+      <td>13 167</td>
+      <td>6 826</td>
+      <td>491 490</td>
+      <td>254 775</td>
+      <td>746 265</td>
+    </tr>
+    <tr>
+      <td>97-20-08 Egyenestoldó 42</td>
+      <td>23,0</td>
+      <td>pc(s)</td>
+      <td>25 657</td>
+      <td>6 826</td>
+      <td>512 256</td>
+      <td>136 275</td>
+      <td>648 531</td>
+    </tr>
+    <tr>
+      <td>97-20-09 Egyenestoldó 60</td>
+      <td>18,0</td>
+      <td>pc(s)</td>
+      <td>69 118</td>
+      <td>6 826</td>
+      <td>1 079 964</td>
+      <td>106 650</td>
+      <td>1 186 614</td>
+    </tr>
+    <tr>
+      <td>97-20-10 Szűkítő - 18 - 12</td>
+      <td>371,0</td>
+      <td>pc(s)</td>
+      <td>12 965</td>
+      <td>6 826</td>
+      <td>4 175 234</td>
+      <td>2 198 175</td>
+      <td>6 373 409</td>
+    </tr>
+    <tr>
+      <td>97-20-11 Szűkítő - 28 - 18</td>
+      <td>138,0</td>
+      <td>pc(s)</td>
+      <td>27 362</td>
+      <td>6 826</td>
+      <td>3 277 776</td>
+      <td>817 650</td>
+      <td>4 095 426</td>
+    </tr>
+    <tr>
+      <td>97-20-12 Szűkítő - 42 - 28</td>
+      <td>34,0</td>
+      <td>pc(s)</td>
+      <td>37 212</td>
+      <td>6 826</td>
+      <td>1 098 268</td>
+      <td>201 450</td>
+      <td>1 299 718</td>
+    </tr>
+    <tr>
+      <td>97-20-13 Szűkítő - 60 - 42</td>
+      <td>11,0</td>
+      <td>pc(s)</td>
+      <td>84 798</td>
+      <td>6 826</td>
+      <td>809 699</td>
+      <td>65 175</td>
+      <td>874 874</td>
+    </tr>
+    <tr>
+      <td>97-20-14 T-idom - 18/12</td>
+      <td>406,0</td>
+      <td>pc(s)</td>
+      <td>24 371</td>
+      <td>6 826</td>
+      <td>8 588 930</td>
+      <td>2 405 550</td>
+      <td>10 994 480</td>
+    </tr>
+    <tr>
+      <td>97-20-15 T-idom - 28/12</td>
+      <td>1 659,0</td>
+      <td>pc(s)</td>
+      <td>40 770</td>
+      <td>6 826</td>
+      <td>58 713 669</td>
+      <td>9 829 575</td>
+      <td>68 543 244</td>
+    </tr>
+    <tr>
+      <td>97-20-16 T-idom - 28/18</td>
+      <td>354,0</td>
+      <td>pc(s)</td>
+      <td>40 610</td>
+      <td>6 826</td>
+      <td>12 479 208</td>
+      <td>2 097 450</td>
+      <td>14 576 658</td>
+    </tr>
+    <tr>
+      <td>97-20-17 T-idom - 42/12</td>
+      <td>39,0</td>
+      <td>pc(s)</td>
+      <td>64 058</td>
+      <td>6 826</td>
+      <td>2 168 634</td>
+      <td>231 075</td>
+      <td>2 399 709</td>
+    </tr>
+    <tr>
+      <td>97-20-18 T-idom - 42/18</td>
+      <td>191,0</td>
+      <td>pc(s)</td>
+      <td>63 848</td>
+      <td>6 826</td>
+      <td>10 585 984</td>
+      <td>1 131 675</td>
+      <td>11 717 659</td>
+    </tr>
+    <tr>
+      <td>97-20-19 T-idom - 42/28</td>
+      <td>132,0</td>
+      <td>pc(s)</td>
+      <td>118 556</td>
+      <td>6 826</td>
+      <td>13 584 516</td>
+      <td>782 100</td>
+      <td>14 366 616</td>
+    </tr>
+    <tr>
+      <td>97-20-20 T-idom - 60/42</td>
+      <td>45,0</td>
+      <td>pc(s)</td>
+      <td>164 590</td>
+      <td>6 826</td>
+      <td>6 429 285</td>
+      <td>266 625</td>
+      <td>6 695 910</td>
+    </tr>
+    <tr>
+      <td>97-20-21 T-idom - 60/42-42</td>
+      <td>12,0</td>
+      <td>pc(s)</td>
+      <td>266 728</td>
+      <td>6 826</td>
+      <td>2 778 420</td>
+      <td>71 100</td>
+      <td>2 849 520</td>
+    </tr>
+    <tr>
+      <td>97-20-22 T-idom - 18</td>
+      <td>17,0</td>
+      <td>pc(s)</td>
+      <td>21 145</td>
+      <td>6 826</td>
+      <td>312 035</td>
+      <td>100 725</td>
+      <td>412 760</td>
+    </tr>
+    <tr>
+      <td>97-20-23 T-idom - 28</td>
+      <td>99,0</td>
+      <td>pc(s)</td>
+      <td>34 861</td>
+      <td>6 826</td>
+      <td>2 995 839</td>
+      <td>586 575</td>
+      <td>3 582 414</td>
+    </tr>
+    <tr>
+      <td>97-20-24 T-idom - 42</td>
+      <td>8,0</td>
+      <td>pc(s)</td>
+      <td>85 825</td>
+      <td>6 826</td>
+      <td>596 008</td>
+      <td>47 400</td>
+      <td>643 408</td>
+    </tr>
+    <tr>
+      <td>97-20-25 Patentív - 42</td>
+      <td>132,0</td>
+      <td>pc(s)</td>
+      <td>71 544</td>
+      <td>6 826</td>
+      <td>8 197 728</td>
+      <td>782 100</td>
+      <td>8 979 828</td>
+    </tr>
+    <tr>
+      <td>97-20-26 Patentív - 60</td>
+      <td>22,0</td>
+      <td>pc(s)</td>
+      <td>145 771</td>
+      <td>6 826</td>
+      <td>2 783 814</td>
+      <td>130 350</td>
+      <td>2 914 164</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_497.png" alt="Oldal 497" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>

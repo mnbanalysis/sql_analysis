@@ -1,0 +1,28 @@
+Tétel;Menny.;Egys.;Anyag e.ár (net HUF);Díj e.ár (net HUF);Anyag összesen (net HUF);Díj összesen (net HUF);Anyag+Díj összesen (net HUF)
+"61-60-06 Csatlakozó doboz; FWE-11-DAF; 4 csonkos";6,0;db;42 107;14 802;252 643;88 811;341 454
+Hangcsillapító: Légcsatornába épített kör keresztmetszetű, akusztikai szakvéleményben rögzített hangcsillapítási értékekkel, rendszerenként külön-külön történő kiválasztással. A hangcsillapító acéllemez szerkezeti elemekből álló, nem éghető, poliuretán hab, vagy üveggyapot hangcsillapító betétekkel rendelkezik, 5-8 m/sec körüli közegsebesség hangcsillapítására alkalmas. A szellőző gépeknél se a szívó, se a nyomó oldalon a hangcsillapítók ellenállásának összege ne haladja meg az 50-50 Pa-t. A kivitelezésnél az akusztikai szakvéleményben rögzített típusokat kell beépíteni;0;0;0;0;-;-;-
+61-60-07 HCS-ø125-500;1,0;db;35 393;12 249;35 393;12 249;47 641
+61-60-08 HCS-ø200-500;1,0;db;51 942;10 310;51 942;10 310;62 252
+61-60-09 HCS-ø250-500;1,0;db;75 999;14 699;75 999;14 699;90 699
+61-60-10 HCS-ø250-1000;2,0;db;98 847;18 374;197 694;36 748;234 442
+61-60-11 HCS-ø315-1000;2,0;db;110 832;20 416;221 664;40 831;262 496
+Hangcsillapító: Légcsatornába épített kör/négyszög keresztmetszetű, akusztikai szakvéleményben rögzített hangcsillapítási értékekkel, rendszerenként külön-külön történő kiválasztással. A hangcsillapító acéllemez szerkezeti elemekből álló, nem éghető, nem tűzveszélyes poliuretán hab, vagy üveggyapot hangcsillapító betétekkel rendelkezik, 5-8 m/sec körüli közegsebesség hangcsillapítására alkalmas. A szellőző gépeknél se a szívó, se a nyomó oldalon a hangcsillapítók ellenállásának összege ne haladja meg az 50-50 Pa-t. A kivitelezésnél az akusztikai szakvéleményben rögzített típusokat kell beépíteni;0;0;0;0;-;-;-
+61-60-12 SLRS-200-67-800-600-750;1,0;db;227 710;73 496;227 710;73 496;301 206
+61-60-13 SLRS-200-100-600-700-1250;1,0;db;353 827;91 871;353 827;91 871;445 697
+61-60-14 SLRS-200-100-1500-800-1500;2,0;db;849 534;226 614;1 699 068;453 227;2 152 296
+61-60-15 SLRS-200-125-1300-500-500;1,0;db;275 004;80 030;275 004;80 030;355 033
+61-60-16 SLRS-200-125-1300-500-1000;1,0;db;522 507;100 037;522 507;100 037;622 544
+61-60-17 SLRS-200-125-1300-500-1500;1,0;db;783 761;150 055;783 761;150 055;933 815
+61-60-18 SLRS-200-125-1300-800-1250;1,0;db;721 082;172 258;721 082;172 258;893 340
+61-60-19 SLRS-200-125-1300-800-1500;3,0;db;832 018;20 671;2 496 054;62 014;2 558 068
+61-60-20 SLRS-200-133-1000-600-1500;2,0;db;535 994;146 993;1 071 989;293 986;1 365 974
+61-60-21 SLRS-200-133-1000-800-1500;1,0;db;648 974;177 617;648 974;177 617;826 591
+61-60-22 SLRS-200-150-400-800-1500;2,0;db;282 886;104 120;565 772;208 240;774 012
+61-60-23 SLRS-200-150-600-700-500;1,0;db;182 168;58 798;182 168;58 798;240 965
+61-60-24 SLRS-200-150-700-500-750;1,0;db;202 312;60 634;202 312;60 634;262 946
+61-60-25 SLRS-200-150-700-500-1000;1,0;db;247 854;67 372;247 854;67 372;315 226
+61-60-26 SLRS-200-150-700-500-1500;4,0;db;341 565;101 058;1 366 260;404 232;1 770 492
+61-60-27 SLRS-200-150-700-800-1500;2,0;db;463 302;153 118;926 604;306 236;1 232 840
+61-60-28 SLRS-200-150-900-400-1500;1,0;db;416 885;116 369;416 885;116 369;533 254
+61-60-29 SLRS-200-150-1100-700-1500;1,0;db;599 929;189 866;599 929;189 866;789 795
+61-60-30 SLRS-200-150-1100-800-1500;2,0;db;657 732;189 866;1 315 463;379 732;1 695 195

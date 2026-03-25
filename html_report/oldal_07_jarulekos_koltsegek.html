@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7. oldal: Járulékos költségek</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; color: #333; }
+        h1 { color: #004b87; }
+        .table-container { overflow-x: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: right; border-bottom: 1px solid #ddd; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background-color: #004b87; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f1f1f1; }
+        .back-link { display: inline-block; margin-bottom: 20px; text-decoration: none; color: #0066cc; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Vissza az Indexhez</a>
+    <h1>7. oldal: Járulékos költségek</h1>
+    <div class="table-container">
+        <table class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Tétel</th>
+      <th>Megjegyzés</th>
+      <th>Menny.</th>
+      <th>Egys.</th>
+      <th>Anyag e.ár (net HUF)</th>
+      <th>Díj e.ár (net HUF)</th>
+      <th>Anyag összesen (net HUF)</th>
+      <th>Díj összesen (net HUF)</th>
+      <th>Anyag+Díj összesen (net HUF)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01-32-13 Darualapok (10 x 10 x 6 méretű tömb, 6 x 6 x 1,06 méretű tömb, jet - belső udvari)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>14 330 931</td>
+      <td>18 147 877</td>
+      <td>14 330 931</td>
+      <td>18 147 877</td>
+      <td>32 478 808</td>
+    </tr>
+    <tr>
+      <td>01-32-14 Pincei ablak külső műemléki rács kibontása restaurátor szakfelügyelettel, értékmentő bontás, szállítás</td>
+      <td>NaN</td>
+      <td>3,0</td>
+      <td>db</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-32-15 Vegyes hulladék kitermelése, elszállítása - alépítményi munkák időszaka</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>17 393 838</td>
+      <td>0</td>
+      <td>17 393 838</td>
+      <td>17 393 838</td>
+    </tr>
+    <tr>
+      <td>01-32-16 Munkavédelmi korlátok építése, többszöri áthelyezés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>1 664 520</td>
+      <td>1 708 324</td>
+      <td>1 664 520</td>
+      <td>1 708 324</td>
+      <td>3 372 844</td>
+    </tr>
+    <tr>
+      <td>01-32-17 Régészeti szakfelügyelet - EDR dokumentáció szerint</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>2 158 564</td>
+      <td>0</td>
+      <td>2 158 564</td>
+      <td>2 158 564</td>
+    </tr>
+    <tr>
+      <td>01-32-18 Transzformátor állomás áthelyezése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-32-19 Laborköltség</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>0</td>
+      <td>5 176 738</td>
+      <td>0</td>
+      <td>5 176 738</td>
+      <td>5 176 738</td>
+    </tr>
+    <tr>
+      <td>01-32-20 Széfek átszállítása külső raktárba - különböző méretűek és súlyúak</td>
+      <td>NaN</td>
+      <td>33,0</td>
+      <td>db</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-40-00 TERÜLETRENDEZÉS</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>159 600 184</td>
+      <td>117 315 472</td>
+      <td>276 915 656</td>
+    </tr>
+    <tr>
+      <td>01-40-01 Forgalomtechnika (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>2 754 296</td>
+      <td>3 580 585</td>
+      <td>2 754 296</td>
+      <td>3 580 585</td>
+      <td>6 334 881</td>
+    </tr>
+    <tr>
+      <td>01-40-02 Ideiglenes fűtés költsége a kivitelezés ideje alatt (2022. November - 2023. Március: 9 530 l / Hónap)\n\nTartalmazza a gépkezelő és a segéd nappali és éjszakai munkadíját, valamint a 20 db változó teljesítményű gázolajis fűtőtest bérleti költségeit.</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>110 978 541</td>
+      <td>92 284 811</td>
+      <td>110 978 541</td>
+      <td>92 284 811</td>
+      <td>203 263 352</td>
+    </tr>
+    <tr>
+      <td>01-40-03 Gemenc Állvány dekor háló (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>15 582 288</td>
+      <td>11 102 000</td>
+      <td>15 582 288</td>
+      <td>11 102 000</td>
+      <td>26 684 288</td>
+    </tr>
+    <tr>
+      <td>01-40-04 Hold utcai homlokzati ponyva állítás (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>1 692 540</td>
+      <td>900 302</td>
+      <td>1 692 540</td>
+      <td>900 302</td>
+      <td>2 592 842</td>
+    </tr>
+    <tr>
+      <td>01-40-05 Kerítés beszerzés- Reno Udvar (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>1 356 052</td>
+      <td>462 868</td>
+      <td>1 356 052</td>
+      <td>462 868</td>
+      <td>1 818 920</td>
+    </tr>
+    <tr>
+      <td>01-40-06 Kamerarendszer kiépítése (M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>865 000</td>
+      <td>702 000</td>
+      <td>865 000</td>
+      <td>702 000</td>
+      <td>1 567 000</td>
+    </tr>
+    <tr>
+      <td>01-40-07 Téliesítés 1  2022 tél M)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>klt</td>
+      <td>26 371 467</td>
+      <td>8 282 907</td>
+      <td>26 371 467</td>
+      <td>8 282 907</td>
+      <td>34 654 374</td>
+    </tr>
+    <tr>
+      <td>01-50-00 MŰSZAKI KOORDINÁCIÓ</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>240 784 970</td>
+      <td>240 784 970</td>
+    </tr>
+    <tr>
+      <td>01-50-01 2D/3D BIM</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-50-02 Tervszerver</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-50-03 Veszélyes anyagok vizsgálata</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-50-04 LEED koordináció</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-50-05 WELL koordináció</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-50-06 Építéstörténet Tudományos Dokumentáció és Értékleltár készítése</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>8 102 719</td>
+      <td>0</td>
+      <td>8 102 719</td>
+      <td>8 102 719</td>
+    </tr>
+    <tr>
+      <td>01-50-07 Művészettörténészi szakértés a projekt során</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>59 924 111</td>
+      <td>0</td>
+      <td>59 924 111</td>
+      <td>59 924 111</td>
+    </tr>
+    <tr>
+      <td>01-50-08 Rekonstrukció, korszerűsítés, belső átalakítás tanulmánytervei</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>18 006 043</td>
+      <td>0</td>
+      <td>18 006 043</td>
+      <td>18 006 043</td>
+    </tr>
+    <tr>
+      <td>01-50-09 Műemléki védelem - Felelős Műszaki Vezető</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>26 919 035</td>
+      <td>0</td>
+      <td>26 919 035</td>
+      <td>26 919 035</td>
+    </tr>
+    <tr>
+      <td>01-50-10 Geodézia munkálatok (Kitűzési, alapponthálózat)</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>34 373 537</td>
+      <td>0</td>
+      <td>34 373 537</td>
+      <td>34 373 537</td>
+    </tr>
+    <tr>
+      <td>01-50-11 Laborvizsgálatok</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>9 003 021</td>
+      <td>0</td>
+      <td>9 003 021</td>
+      <td>9 003 021</td>
+    </tr>
+    <tr>
+      <td>01-50-12 Régészeti szakfelügyelet</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>5 401 813</td>
+      <td>0</td>
+      <td>5 401 813</td>
+      <td>5 401 813</td>
+    </tr>
+    <tr>
+      <td>01-50-13 WEBEX Online kommunikációs felület</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>323 298</td>
+      <td>0</td>
+      <td>323 298</td>
+      <td>323 298</td>
+    </tr>
+    <tr>
+      <td>01-50-14 Közjegyzői díj</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>86 429</td>
+      <td>0</td>
+      <td>86 429</td>
+      <td>86 429</td>
+    </tr>
+    <tr>
+      <td>01-50-15 Közjegyzői költség</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>16 607 265</td>
+      <td>0</td>
+      <td>16 607 265</td>
+      <td>16 607 265</td>
+    </tr>
+    <tr>
+      <td>01-50-16 Ügyvédi költség</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>23 012 087</td>
+      <td>0</td>
+      <td>23 012 087</td>
+      <td>23 012 087</td>
+    </tr>
+    <tr>
+      <td>01-60-00 MŰSZAKI ÁTADÁS</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>58 566 430</td>
+      <td>58 566 430</td>
+    </tr>
+    <tr>
+      <td>01-60-01 Átadás átvételi dokumentáció készítése\n-tervezői díj\n- 3 db nyomtatott példány\n- szaknvevők bevonása\n-tervezési művezetöi díj és ennek dokumentálása</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>01-60-02 Üzempróbák - beszabályozás\n\n- Rendszerterv elkészítése átadása\n- Implementáció terv elkészítése, átadása\n- Üzemeltetési kézikönyv elkészítése, átadása\n- Oktatás, ahol az üzemeltetési kézikönyv még pontosítódhat\n- Üzempróba, tesztelés (funkcionális, integrációs és penetrációs), tesztelési jegyzőkönyvek elfogadása\n- Éles üzembe helyezés</td>
+      <td>NaN</td>
+      <td>1,0</td>
+      <td>kts</td>
+      <td>0</td>
+      <td>28 016 430</td>
+      <td>0</td>
+      <td>28 016 430</td>
+      <td>28 016 430</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+<div class="original-images" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 20px;"><h2>Eredeti oldal képe</h2><div style="margin-bottom: 20px;"><img src="../images/page_007.png" alt="Oldal 7" style="max-width: 100%; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></div></div>
+</body>
+</html>
